@@ -2,14 +2,17 @@ function showNotificationField() {
     const method = document.getElementById("notification-method").value;
     const emailField = document.getElementById("email-field");
     const phoneField = document.getElementById("phone-field");
+    const phoneInput = document.getElementById("phone");
 
     emailField.style.display = "none";
     phoneField.style.display = "none";
 
     if (method === "Email") {
         emailField.style.display = "block";
+        phoneInput.removeAttribute('required'); // Remove 'required' se Email for selecionado
     } else if (method === "Telegram" || method === "SMS") {
         phoneField.style.display = "block";
+        phoneInput.setAttribute('required', 'required'); // Adiciona 'required' se Telegram ou SMS for selecionado
     }
 }
 
@@ -92,8 +95,39 @@ function applyMasks() {
                     phoneError.style.display = 'none';
                 }
                 break;
-            case '+44': // Reino Unido
+            default:
+                phoneError.style.display = 'none';
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', applyMasks);
+
+document.getElementById('player-search-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const phoneField = document.getElementById('phone-field');
+    const phoneInput = document.getElementById('phone');
+    const countryCodeSelect = document.getElementById('country-code');
+    const phoneError = document.getElementById('phone-error');
+    let isValid = true;
+
+    if (phoneField.style.display === 'block') {
+        const value = phoneInput.value.replace(/\D/g, '');
+        const countryCode = countryCodeSelect.value;
+
+        switch (countryCode) {
+            case '+55': // Brasil
                 if (value.length !== 11) {
+                    isValid = false;
+                    phoneError.style.display = 'block';
+                } else {
+                    phoneError.style.display = 'none';
+                }
+                break;
+            case '+1': // EUA
+                if (value.length !== 10) {
+                    isValid = false;
                     phoneError.style.display = 'block';
                 } else {
                     phoneError.style.display = 'none';
@@ -102,64 +136,38 @@ function applyMasks() {
             default:
                 phoneError.style.display = 'none';
         }
-    });
-}
-
-// Aplicar máscara ao carregar a página
-document.addEventListener('DOMContentLoaded', applyMasks);
-
-document.getElementById('player-search-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    // Validar comprimento do número de telefone
-    const phoneInput = document.getElementById('phone');
-    const countryCodeSelect = document.getElementById('country-code');
-    const phoneError = document.getElementById('phone-error');
-    const value = phoneInput.value.replace(/\D/g, '');
-    const countryCode = countryCodeSelect.value;
-
-    let isValid = true;
-    if (countryCode === '+55' && value.length !== 11) {
-        isValid = false;
-    } else if (countryCode === '+1' && value.length !== 10) {
-        isValid = false;
-    } else if (countryCode === '+44' && value.length !== 11) {
-        isValid = false;
+    } else {
+        phoneError.style.display = 'none'; 
     }
 
-    if (!isValid) {
-        phoneError.style.display = 'block';
-        return;
-    }
-
-    phoneError.style.display = 'none';
-
-    const position = document.getElementById('position').value;
-    const price = document.getElementById('price').value;
-    const overall = document.getElementById('overall').value;
     const weakFoot = document.getElementById('weak-foot').getAttribute('data-stars');
     const skillMoves = document.getElementById('skill-moves').getAttribute('data-stars');
-    const name = document.getElementById('name').value;
-    const notificationMethod = document.getElementById('notification-method').value;
-    const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
 
-    // Verificar se as estrelas foram preenchidas
     if (weakFoot === "0" || skillMoves === "0") {
-        alert("Por favor, preencha a classificação com estrelas para 'Weak Foot' e 'Skill Moves'.");
-        return;
+        isValid = false;
+        alert("Por favor, preencha a classificação com estrelas para 'Pé Fraco' e 'Habilidades'.");
     }
 
-    const message = `
-        Posição: ${position}
-        Preço: ${price}
-        Overall: ${overall}
-        Pé Fraco: ${weakFoot} 
-        Habilidades: ${skillMoves} 
-        Nome: ${name}
-        Método de Notificação: ${notificationMethod}
-        ${notificationMethod && notificationMethod === "Email" ? "Email: " + email : "Telefone: " + phone}
-    `;
+    if (isValid) {
+        const position = document.getElementById('position').value;
+        const price = document.getElementById('price').value;
+        const overall = document.getElementById('overall').value;
+        const name = document.getElementById('name').value;
+        const notificationMethod = document.getElementById('notification-method').value;
+        const email = document.getElementById('email').value;
+        const phone = phoneInput.value;
 
-    alert(message);
+        const message = `
+            Posição: ${position}
+            Preço: ${price}
+            Overall: ${overall}
+            Pé Fraco: ${weakFoot} 
+            Habilidades: ${skillMoves} 
+            Nome: ${name}
+            Método de Notificação: ${notificationMethod}
+            ${notificationMethod && notificationMethod === "Email" ? "Email: " + email : "Telefone: " + phone}
+        `;
+
+        alert(message);
+    }
 });
