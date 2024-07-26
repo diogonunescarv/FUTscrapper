@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUTScrapper - Busca de Jogadores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./Assets/logo.png" alt="Logo" class="logo">
+        </header>
+        
+        <form id="player-search-form">
+            <label for="position">Posição:</label>
+            <select id="position" name="position" required>
+                <option value="">Selecione uma posição</option>
+                <option value="GK">GK</option>
+                <option value="RB">RB</option>
+                <option value="RWB">RWB</option>
+                <option value="CB">CB</option>
+                <option value="LB">LB</option>
+                <option value="LWB">LWB</option>
+                <option value="CDM">CDM</option>
+                <option value="CM">CM</option>
+                <option value="CAM">CAM</option>
+                <option value="RM">RM</option>
+                <option value="RW">RW</option>
+                <option value="LM">LM</option>
+                <option value="LW">LW</option>
+                <option value="RF">RF</option>
+                <option value="LF">LF</option>
+                <option value="CF">CF</option>                
+                <option value="ST">ST</option>
+            </select>
+            
+            <div class="inline-fields">
+                <div class="field">
+                    <label for="price">Preço:</label>
+                    <input type="number" id="price" name="price" min="350" max="500000" required>
+                </div>
+                <div class="field">
+                    <label for="overall">Overall:</label>
+                    <input type="number" id="overall" name="overall" min="75" max="91" required>
+                </div>
+            </div>
+
+            <div class="inline-fields">
+                <div class="field">
+                    <label for="weak-foot">Pé Fraco:</label>
+                    <div class="star-rating" id="weak-foot" data-stars="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="skill-moves">Habilidades:</label>
+                    <div class="star-rating" id="skill-moves" data-stars="0">
+                        <span class="star" data-value="1">★</span>
+                        <span class="star" data-value="2">★</span>
+                        <span class="star" data-value="3">★</span>
+                        <span class="star" data-value="4">★</span>
+                        <span class="star" data-value="5">★</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr> 
+
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="notification-method">Método de Notificação:</label>
+            <select id="notification-method" name="notification-method" required onchange="showNotificationField()">
+                <option value="">Selecione um método</option>
+                <option value="Email">Email</option>
+                <option value="Telegram">Telegram</option>
+                <option value="SMS">SMS</option>
+            </select>
+
+            <div id="email-field" class="notification-field" style="display: none;">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" title="Por favor, insira um endereço de email válido">
+            </div>
+
+            <div id="phone-field" class="notification-field" style="display: none;">
+                <label for="phone">Telefone (com código do país):</label>
+                <div class="phone-input">
+                    <select id="country-code" name="country-code" onchange="applyMasks()">
+                        <option value="+1">🇺🇸 +1</option>
+                        <option value="+44">🇬🇧 +44</option>
+                        <option value="+55">🇧🇷 +55</option>
+                    </select>
+                    <input type="tel" id="phone" name="phone" placeholder="Digite o número do telefone" required>
+                    <small id="phone-error" style="color: red; display: none;">Número de telefone inválido para o código de país selecionado.</small>
+                </div>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
