@@ -1,0 +1,35 @@
+Opções que estarão disponíveis no form:
+
+A ideia é que inicialmente apenas os jogadores ouro (que ainda tenham cartas disponíveis no game) tenham scrapping realizados devido a quantidade existente no game.
+
+link da página em que será realizada o scrapping.
+
+https://www.futbin.com/players?order=desc&ps_price=350%2B&sort=Player_Rating&version=gold
+
+INFORMAÇÕES PARA NOTIFICAÇÃO
+
+1. Nome
+2. Email
+
+INFORMAÇÕES PARA BUSCA DESEJADA
+
+1. POSIÇÃO (TODAS DO JOGO)
+2. PREÇO (SE SÓ OS OUROS DE 350 A 500K)
+3. OVERALL (SE SÓ OS OUROS DE 75 A 91)
+4. WEAK FOOT (1 A 5 ESTRELAS)
+5. SKILL MOVES (1 A 5 ESTRELAS)
+
+
+
+Links para seguir como exemplo:
+
+1. https://www.kaggle.com/code/lucas142129silva/fifa-23-players-scraping
+2. https://github.com/PhilippeCodes/Web-Scraping-Futbin.com
+3. https://github.com/trydis/FIFA-Ultimate-Team-Toolkit
+4. https://github.com/sauravhiremath/fifa-stats-crawler
+
+FUTWIZ
+
+https://www.futwiz.com/en/fc24/players?page=0&release[]=raregold&release[]=commongold&minprice=350
+
+> páginas de 0 a 96

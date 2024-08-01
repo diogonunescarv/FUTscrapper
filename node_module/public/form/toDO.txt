@@ -18,8 +18,7 @@ INFORMAÇÕES PARA BUSCA DESEJADA
 3. OVERALL (SE SÓ OS OUROS DE 75 A 91)
 4. WEAK FOOT (1 A 5 ESTRELAS)
 5. SKILL MOVES (1 A 5 ESTRELAS)
-
-
+6. NOME
 
 Links para seguir como exemplo:
 
@@ -27,3 +26,29 @@ Links para seguir como exemplo:
 2. https://github.com/PhilippeCodes/Web-Scraping-Futbin.com
 3. https://github.com/trydis/FIFA-Ultimate-Team-Toolkit
 4. https://github.com/sauravhiremath/fifa-stats-crawler
+
+--------------------------------------------------------------------------------------------------
+
+FUTWIZ
+
+https://www.futwiz.com/en/fc24/players?page=0&release[]=raregold&release[]=commongold&minprice=350
+
+> páginas de 0 a 96
+
+Preciso a acessar a <div class="main-content-body"> . Dentro desta div preciso a acessar a <div class="content-row-100 flexbox flexwrap gap40 mb-20 latest-content">. Dentro desta div preciso acessar a <div class="content-2col-left player-search-left">. Dentro desta div preciso acessar a <div classe="player-search-results">. Dentro desta Div, quero pegar todos os elementos <a class="latest-player-card">
+
+Perfeito, dentro deste elemento <a> terei as informações que preciso de cada jogar e para pega-las preciso dos seguintes pontos que estao dentro de <a>:
+
+1. <div class="latest-player-card-content"> dentro dessa div, conseguirei pegar os seguintes dados:
+
+	a. rating: <div class="card-24-pack-rating">
+	b. position: <div class="card-24-pack-position">
+	c. name: <div class="card-24-pack-name">
+	d. Skill Moves: <div class="card-24-pack-extra-info-foot"> dentro dela <div class="card-24-pack-foot-txt"> dentro dela <div class="card-24-pack-foot-in"> por fim o valor de <span class"card-24-pack-sm">
+	e. Weak Foot: <div class="card-24-pack-extra-info-foot"> dentro dela <div class="card-24-pack-foot-txt"> dentro dela <div class="card-24-pack-foot-in"> por fim o valor de <span class"card-24-pack-wf">
+
+2. <div class="latest-player-info-block"> dentro dessa div, acessar <div class="latest-player-info-price"> dentro dela posso pegar o price em price <span class"console-price">
+
+
+
+

@@ -6,11 +6,15 @@ This repository implements a **Notification and Data Analysis System** for the G
 
 ## Features
 
-1. **Data Scraping with Bash []**
+1. **Data Scraping with Bash [X]**
    - Bash scripts for data scraping from FUTBIN.
+   - **Problem Encountered:** Unable to scrape their page due to intermediary protection.
+   - **Solution:** Scrape data from FUTWIZ instead.
 
-2. **Data Cleaning with Python []** 
+2. **Data Cleaning with Python [X]** 
    - Python scripts to clean and prepare the scraped data.
+   - **Solution:** The data cleaning process is handled using the `BeautifulSoup` library. After scraping the data from the website, the script uses BeautifulSoup to parse and extract the relevant information from the HTML structure. This involves navigating through the HTML tags and attributes to isolate the required data fields, such as player ratings, positions, names, skill moves, weak foot, and prices. The cleaned data is then structured into a Pandas DataFrame for easy manipulation and saving. Finally, the processed data is saved into a CSV file for further analysis or use.
+
 
 3. **Sending Dataset to Node Server []**
    - Creation and sending of a dataset to a Node.js server.
