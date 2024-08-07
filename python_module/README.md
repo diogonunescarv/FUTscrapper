@@ -1,15 +1,21 @@
 # FUTscraper
 
-This project scrapes player information from Futwiz and saves the data to a CSV file. 
+This project scrapes player information from Futwiz and saves the data to a CSV file.
 
 Currently, the scraper is configured to search for gold players with a price greater than 350 coins.
 
 ## Installation
 
-Clone the repository and install the dependencies:
+### Using Docker
+
+#### Prerequisites
+
+- [Docker](https://www.docker.com/get-started) installed on your machine.
+
+#### Build the Docker Image
+
+Navigate to the project directory and build the Docker image:
 
 ```bash
-git clone https://github.com/diogonunescarv/FUTscrapper.git
 cd FUTscrapper/python_module
-pip install -r requirements.txt
-
+docker build -t python-module-image .

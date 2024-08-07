@@ -33,3 +33,18 @@ FUTWIZ
 https://www.futwiz.com/en/fc24/players?page=0&release[]=raregold&release[]=commongold&minprice=350
 
 > páginas de 0 a 96
+
+*TO DO:*
+
+Frontend:
+
+1. Criar servidor com endpoints:
+	a. Endpoint que recebe os dados do backend e o guarda em um arquivo csv
+	b. Endpoint que abre o formulário
+	c. Endpoint para enviar a resposta do formulário, tal resposta deve ser tratada filtrar as caracteristicas desejadas no csv e realizar o envio da notificação. (Ir escrevendo os logs em um txt de todas as situações e o resultado gerado)
+	d. Endpoint de gráficos ... (?)
+	
+2. Integrar com APIs para notificação
+	a. Testar
+
+3. Integrar com API de IA para as notificações que serão enviadas.

@@ -37,7 +37,6 @@ function updateStars(rating) {
     });
 }
 
-// Aplicar máscaras
 function applyMasks() {
     const phoneInput = document.getElementById('phone');
     const countryCodeSelect = document.getElementById('country-code');
@@ -157,17 +156,35 @@ document.getElementById('player-search-form').addEventListener('submit', functio
         const email = document.getElementById('email').value;
         const phone = phoneInput.value;
 
-        const message = `
-            Posição: ${position}
-            Preço: ${price}
-            Overall: ${overall}
-            Pé Fraco: ${weakFoot} 
-            Habilidades: ${skillMoves} 
-            Nome: ${name}
-            Método de Notificação: ${notificationMethod}
-            ${notificationMethod && notificationMethod === "Email" ? "Email: " + email : "Telefone: " + phone}
-        `;
+        const formData = new FormData();
+        formData.append('position', position);
+        formData.append('price', price);
+        formData.append('overall', overall);
+        formData.append('name', name);
+        formData.append('notificationMethod', notificationMethod);
+        formData.append('email', email);
+        formData.append('phone', phone);
+        formData.append('weakFoot', weakFoot);
+        formData.append('skillMoves', skillMoves);
 
-        alert(message);
+        fetch('/submit-form', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Erro ao enviar formulário');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Lógica para lidar com a resposta do servidor, se necessário
+            console.log('Resposta do servidor:', data);
+            alert('Formulário enviado com sucesso!');
+        })
+        .catch(error => {
+            console.error('Erro ao enviar formulário:', error);
+            alert('Erro ao enviar formulário. Por favor, tente novamente mais tarde.');
+        });
     }
 });
