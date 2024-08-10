@@ -1,0 +1,35 @@
+[
+  {
+    "position": "CF",
+    "price": "40000",
+    "overall": "90",
+    "name": "Diogo",
+    "notificationMethod": "Email",
+    "email": "diogo.carvalho2@estudante.ufla.br",
+    "phone": "",
+    "weakFoot": "4",
+    "skillMoves": "4"
+  },
+  {
+    "position": "LW",
+    "price": "45000",
+    "overall": "89",
+    "name": "Diogo",
+    "notificationMethod": "Email",
+    "email": "diogonunescarv@gmail.com",
+    "phone": "",
+    "weakFoot": "5",
+    "skillMoves": "4"
+  },
+  {
+    "position": "LW",
+    "price": "45000",
+    "overall": "89",
+    "name": "Diogo",
+    "notificationMethod": "Email",
+    "email": "dnunes13.canal@gmail.com",
+    "phone": "",
+    "weakFoot": "4",
+    "skillMoves": "5"
+  }
+]

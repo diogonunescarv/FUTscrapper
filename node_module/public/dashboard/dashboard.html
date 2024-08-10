@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <select id="playerSelect">
+    <option value="" selected>Selecione um Jogador</option>
+  </select>
+  <canvas id="priceChart"></canvas>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const playerSelect = document.getElementById('playerSelect');
+      const priceChart = document.getElementById('priceChart').getContext('2d');
+
+      // Função para carregar a lista de jogadores
+      function loadPlayers() {
+        fetch('/players')
+          .then(response => response.json())
+          .then(players => {
+            players.forEach(player => {
+              const option = document.createElement('option');
+              option.value = player;
+              option.textContent = player;
+              playerSelect.appendChild(option);
+            });
+          });
+      }
+
+      // Função para atualizar o gráfico com os dados do jogador selecionado
+      function updateChart(playerName) {
+        if (playerName) {
+          fetch(`/chart-data/${playerName}`)
+            .then(response => response.json())
+            .then(chartData => {
+              const labels = chartData.map(data => new Date(data.time).toLocaleTimeString());
+              const prices = chartData.map(data => data.price);
+
+              // Remove o gráfico existente, se houver
+              if (priceChart.chart) {
+                priceChart.chart.destroy();
+              }
+
+              // Criar um novo gráfico
+              priceChart.chart = new Chart(priceChart, {
+                type: 'line',
+                data: {
+                  labels: labels,
+                  datasets: [{
+                    label: 'Price',
+                    data: prices,
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                  }]
+                },
+                options: {
+                  scales: {
+                    x: { 
+                      title: { display: true, text: 'Time' }
+                    },
+                    y: {
+                      title: { display: true, text: 'Price' }
+                    }
+                  }
+                }
+              });
+            });
+        }
+      }
+
+      // Carregar a lista de jogadores e configurar o evento de mudança
+      loadPlayers();
+      playerSelect.addEventListener('change', () => {
+        const selectedPlayer = playerSelect.value;
+        updateChart(selectedPlayer);
+      });
+    });
+  </script>
+</body>
+</html>

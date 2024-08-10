@@ -48,3 +48,6 @@ Frontend:
 	a. Testar
 
 3. Integrar com API de IA para as notificações que serão enviadas.
+
+
+

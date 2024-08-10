@@ -156,35 +156,43 @@ document.getElementById('player-search-form').addEventListener('submit', functio
         const email = document.getElementById('email').value;
         const phone = phoneInput.value;
 
-        const formData = new FormData();
-        formData.append('position', position);
-        formData.append('price', price);
-        formData.append('overall', overall);
-        formData.append('name', name);
-        formData.append('notificationMethod', notificationMethod);
-        formData.append('email', email);
-        formData.append('phone', phone);
-        formData.append('weakFoot', weakFoot);
-        formData.append('skillMoves', skillMoves);
+        const formData = {
+            position: position,
+            price: price,
+            overall: overall,
+            name: name,
+            notificationMethod: notificationMethod,
+            email: email,
+            phone: phone,
+            weakFoot: weakFoot,
+            skillMoves: skillMoves
+        };
 
-        fetch('/submit-form', {
+        console.log(formData)
+
+        fetch('/notify', {
             method: 'POST',
-            body: formData
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(formData)
         })
         .then(response => {
             if (!response.ok) {
                 throw new Error('Erro ao enviar formulário');
             }
-            return response.json();
+            return response.json(); // Certifique-se de que a resposta seja convertida para JSON
         })
         .then(data => {
-            // Lógica para lidar com a resposta do servidor, se necessário
+            if (!data.success) {
+                throw new Error(data.message || 'Erro ao processar dados');
+            }
             console.log('Resposta do servidor:', data);
             alert('Formulário enviado com sucesso!');
         })
         .catch(error => {
             console.error('Erro ao enviar formulário:', error);
             alert('Erro ao enviar formulário. Por favor, tente novamente mais tarde.');
-        });
+        });        
     }
 });
