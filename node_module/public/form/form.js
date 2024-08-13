@@ -9,10 +9,10 @@ function showNotificationField() {
 
     if (method === "Email") {
         emailField.style.display = "block";
-        phoneInput.removeAttribute('required'); // Remove 'required' se Email for selecionado
-    } else if (method === "Telegram" || method === "SMS") {
+        phoneInput.removeAttribute('required'); 
+    } else if (method === "SMS") {
         phoneField.style.display = "block";
-        phoneInput.setAttribute('required', 'required'); // Adiciona 'required' se Telegram ou SMS for selecionado
+        phoneInput.setAttribute('required', 'required'); 
     }
 }
 
@@ -47,47 +47,41 @@ function applyMasks() {
 
     function handlePhoneInput() {
         let value = phoneInput.value;
-        value = value.replace(/\D/g, ''); // Remove caracteres não numéricos
+        value = value.replace(/\D/g, ''); // Remove non-numeric characters
 
         const countryCode = countryCodeSelect.value;
 
         let formattedValue;
         switch (countryCode) {
-            case '+55': // Brasil
+            case '+55': // Brazil
                 if (value.length <= 11) {
                     formattedValue = value.replace(/(\d{2})(\d{5})(\d{4})/, '$1 $2-$3');
                 }
                 break;
-            case '+1': // EUA
+            case '+1': // USA
                 if (value.length <= 10) {
                     formattedValue = value.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
                 }
                 break;
-            case '+44': // Reino Unido
-                if (value.length <= 11) {
-                    formattedValue = value.replace(/(\d{5})(\d{6})/, '$1 $2');
-                }
-                break;
             default:
-                formattedValue = value; // Caso padrão para códigos não suportados
+                formattedValue = value; 
         }
-        phoneInput.value = formattedValue;
+        phoneInput.value = formattedValue; // Display formatted value for user
     }
 
-    // Validar comprimento do número de telefone
     phoneInput.addEventListener('blur', function() {
         const value = phoneInput.value.replace(/\D/g, '');
         const countryCode = countryCodeSelect.value;
 
         switch (countryCode) {
-            case '+55': // Brasil
+            case '+55': // Brazil
                 if (value.length !== 11) {
                     phoneError.style.display = 'block';
                 } else {
                     phoneError.style.display = 'none';
                 }
                 break;
-            case '+1': // EUA
+            case '+1': // USA
                 if (value.length !== 10) {
                     phoneError.style.display = 'block';
                 } else {
@@ -112,11 +106,11 @@ document.getElementById('player-search-form').addEventListener('submit', functio
     let isValid = true;
 
     if (phoneField.style.display === 'block') {
-        const value = phoneInput.value.replace(/\D/g, '');
+        const value = phoneInput.value.replace(/\D/g, ''); // Unformat the phone number
         const countryCode = countryCodeSelect.value;
 
         switch (countryCode) {
-            case '+55': // Brasil
+            case '+55': // Brazil
                 if (value.length !== 11) {
                     isValid = false;
                     phoneError.style.display = 'block';
@@ -124,7 +118,7 @@ document.getElementById('player-search-form').addEventListener('submit', functio
                     phoneError.style.display = 'none';
                 }
                 break;
-            case '+1': // EUA
+            case '+1': // USA
                 if (value.length !== 10) {
                     isValid = false;
                     phoneError.style.display = 'block';
@@ -144,7 +138,7 @@ document.getElementById('player-search-form').addEventListener('submit', functio
 
     if (weakFoot === "0" || skillMoves === "0") {
         isValid = false;
-        alert("Por favor, preencha a classificação com estrelas para 'Pé Fraco' e 'Habilidades'.");
+        alert("Please complete the star rating for 'Weak Foot' and 'Skill Moves'.");
     }
 
     if (isValid) {
@@ -154,8 +148,9 @@ document.getElementById('player-search-form').addEventListener('submit', functio
         const name = document.getElementById('name').value;
         const notificationMethod = document.getElementById('notification-method').value;
         const email = document.getElementById('email').value;
-        const phone = phoneInput.value;
-
+        const countryCode = countryCodeSelect.value;
+        const phone = countryCode + phoneInput.value.replace(/\D/g, ''); // Concatenate country code and unformatted phone number
+        
         const formData = {
             position: position,
             price: price,
@@ -168,7 +163,7 @@ document.getElementById('player-search-form').addEventListener('submit', functio
             skillMoves: skillMoves
         };
 
-        console.log(formData)
+        console.log(formData);
 
         fetch('/notify', {
             method: 'POST',
@@ -179,20 +174,20 @@ document.getElementById('player-search-form').addEventListener('submit', functio
         })
         .then(response => {
             if (!response.ok) {
-                throw new Error('Erro ao enviar formulário');
+                throw new Error('Error submitting form');
             }
-            return response.json(); // Certifique-se de que a resposta seja convertida para JSON
+            return response.json(); 
         })
         .then(data => {
             if (!data.success) {
-                throw new Error(data.message || 'Erro ao processar dados');
+                throw new Error(data.message || 'Error processing data');
             }
-            console.log('Resposta do servidor:', data);
-            alert('Formulário enviado com sucesso!');
+            console.log('Server response:', data);
+            alert('Form submitted successfully!');
         })
         .catch(error => {
-            console.error('Erro ao enviar formulário:', error);
-            alert('Erro ao enviar formulário. Por favor, tente novamente mais tarde.');
+            console.error('Error submitting form:', error);
+            alert('Error submitting form. Please try again later.');
         });        
     }
 });

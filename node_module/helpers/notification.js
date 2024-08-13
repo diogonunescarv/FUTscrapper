@@ -1,95 +1,88 @@
-// helpers/notification.js
-
 const nodemailer = require('nodemailer');
 const twilio = require('twilio');
-//const TelegramBot = require('node-telegram-bot-api');
+const axios = require('axios');
 const path = require('path');
-require('dotenv').config({ path: path.join(__dirname, '.env') }); // Carregar variáveis do .env
+require('dotenv').config({ path: path.join(__dirname, '.env') }); // Load variables from .env
 
-// Função para criar o texto da notificação
-function createNotificationText(formData, filteredResults) {
-  let notificationText = `Olá ${formData.name},\n\n`;
-  notificationText += `Encontramos jogadores que correspondem aos critérios de busca:\n\n`;
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+
+async function generatePersonalizedText(formData, filteredResults) {
+  const apiKey = process.env.GEMINI_API_KEY;
+  const genAI = new GoogleGenerativeAI(apiKey);
+  const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
+
+  let prompt = `Create a personalized notification message for ${formData.name} about players that match their criteria. Here are the players:\n`;
   
   if (filteredResults.length > 0) {
     filteredResults.forEach(player => {
-      notificationText += `- Nome: ${player.Name}, Preço: ${player.Price}\n`;
+      prompt += `- Name: ${player.Name}, Price: ${player.Price}\n`;
     });
   } else {
-    notificationText += 'Nenhum jogador correspondente encontrado.\n';
+    prompt += 'No matching players found.\n';
   }
   
-  notificationText += `\nDaqui 24 horas, uma nova lista será enviada.\n`;
-  notificationText += `Atenciosamente,\nSua Equipe de Notificações`;
-  
-  return notificationText;
+  prompt += 'Include a friendly tone and mention that a new list will be sent in 24 hours. The App name is Futscrapper';
+
+  const result = await model.generateContent(prompt);
+  const response = await result.response;
+  const text = response.text();
+
+  return text
 }
 
-// Função para enviar e-mail
+// Function to send email
 function sendEmail(formData, notificationText) {
-  console.log(process.env.EMAIL_USER)
-  console.log(process.env.EMAIL_PASS)
   const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465, // Ou 587
-    secure: true, // true for 465, false for other ports
+    service: 'Outlook365',
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
   });
-  
 
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: formData.email,
-    subject: 'Notificação de Jogadores Encontrados',
-    text: notificationText
+    subject: 'Player Match Notification',
+    text: notificationText,
   };
 
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
-      console.log('Erro ao enviar e-mail:', error);
+      console.log('Error sending email:', error);
     } else {
-      console.log('E-mail enviado:', info.response);
+      console.log('Email sent:', info.response);
     }
   });
 }
 
-// Função para enviar SMS
+// Function to send SMS
 function sendSMS(formData, notificationText) {
   const client = twilio(process.env.TWILIO_SID, process.env.TWILIO_AUTH_TOKEN);
 
   client.messages.create({
     body: notificationText,
     from: process.env.TWILIO_PHONE_NUMBER,
-    to: formData.phone
+    to: formData.phone,
   })
-  .then(message => console.log('SMS enviado:', message.sid))
-  .catch(error => console.log('Erro ao enviar SMS:', error));
+  .then(message => console.log('SMS sent:', message.sid))
+  .catch(error => console.log('Error sending SMS:', error));
 }
 
-// Função para enviar mensagem no Telegram
-function sendTelegramMessage(formData, notificationText) {
-  const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
+// Main function to send notifications
+async function sendNotification(formData, filteredResults) {
+  const notificationText = await generatePersonalizedText(formData, filteredResults);
 
-  bot.sendMessage(formData.telegramChatId, notificationText)
-    .then(response => console.log('Mensagem enviada pelo Telegram:', response))
-    .catch(error => console.log('Erro ao enviar mensagem pelo Telegram:', error));
-}
-
-// Função principal para enviar notificações
-function sendNotification(formData, filteredResults) {
-  const notificationText = createNotificationText(formData, filteredResults);
-
-  if (formData.notificationMethod === 'Email') {
-    sendEmail(formData, notificationText);
-  } else if (formData.notificationMethod === 'SMS') {
-    sendSMS(formData, notificationText);
-  } else if (formData.notificationMethod === 'Telegram') {
-    sendTelegramMessage(formData, notificationText);
+  if (notificationText) {
+    if (formData.notificationMethod === 'Email') {
+      sendEmail(formData, notificationText);
+    } else if (formData.notificationMethod === 'SMS') {
+      sendSMS(formData, notificationText);
+    } else {
+      console.log('Unknown notification method.');
+    }
   } else {
-    console.log('Método de notificação desconhecido.');
+    console.log('Failed to generate notification text.');
   }
 }
 

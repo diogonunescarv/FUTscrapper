@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FUTScrapper - Busca de Jogadores</title>
+    <title>FUTScrapper - Player Search</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="form.css">
 </head>
@@ -14,9 +14,9 @@
         </header>
         
         <form id="player-search-form">
-            <label for="position">Posição:</label>
+            <label for="position">Position:</label>
             <select id="position" name="position" required>
-                <option value="">Selecione uma posição</option>
+                <option value="">Select a position</option>
                 <option value="GK">GK</option>
                 <option value="RB">RB</option>
                 <option value="RWB">RWB</option>
@@ -38,7 +38,7 @@
             
             <div class="inline-fields">
                 <div class="field">
-                    <label for="price">Preço:</label>
+                    <label for="price">Price:</label>
                     <input type="number" id="price" name="price" min="350" max="500000" required>
                 </div>
                 <div class="field">
@@ -49,7 +49,7 @@
 
             <div class="inline-fields">
                 <div class="field">
-                    <label for="weak-foot">Pé Fraco:</label>
+                    <label for="weak-foot">Weak Foot:</label>
                     <div class="star-rating" id="weak-foot" data-stars="0">
                         <span class="star" data-value="1">★</span>
                         <span class="star" data-value="2">★</span>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="field">
-                    <label for="skill-moves">Habilidades:</label>
+                    <label for="skill-moves">Skill Moves:</label>
                     <div class="star-rating" id="skill-moves" data-stars="0">
                         <span class="star" data-value="1">★</span>
                         <span class="star" data-value="2">★</span>
@@ -72,35 +72,36 @@
 
             <hr> 
 
-            <label for="name">Nome:</label>
+            <h2>Notification</h2>
+
+            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
-            <label for="notification-method">Método de Notificação:</label>
+            <label for="notification-method">Notification Method:</label>
             <select id="notification-method" name="notification-method" required onchange="showNotificationField()">
-                <option value="">Selecione um método</option>
+                <option value="">Select a method</option>
                 <option value="Email">Email</option>
-                <option value="Telegram">Telegram</option>
                 <option value="SMS">SMS</option>
             </select>
 
             <div id="email-field" class="notification-field" style="display: none;">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" title="Por favor, insira um endereço de email válido">
+                <input type="email" id="email" name="email" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" title="Please enter a valid email address">
             </div>
 
             <div id="phone-field" class="notification-field" style="display: none;">
-                <label for="phone">Telefone (com código do país):</label>
+                <label for="phone">Phone (with country code):</label>
                 <div class="phone-input">
                     <select id="country-code" name="country-code" onchange="applyMasks()">
                         <option value="+1">🇺🇸 +1</option>
                         <option value="+55">🇧🇷 +55</option>
                     </select>
-                    <input type="tel" id="phone" name="phone" placeholder="Digite o número do telefone" required>
-                    <small id="phone-error" style="color: red; display: none;">Número de telefone inválido para o código de país selecionado.</small>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+                    <small id="phone-error" style="color: red; display: none;">Invalid phone number for the selected country code.</small>
                 </div>
             </div>
 
-            <button type="submit">Enviar</button>
+            <button type="submit">Submit</button>
         </form>
     </div>
     <script src="form.js"></script>

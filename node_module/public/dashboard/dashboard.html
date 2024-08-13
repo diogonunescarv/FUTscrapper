@@ -3,22 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <title>Futscrapper Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/dashboard/dashboard.css">
 </head>
 <body>
-  <h1>Dashboard</h1>
+  <h1>Futscrapper Dashboard</h1>
   <select id="playerSelect">
-    <option value="" selected>Selecione um Jogador</option>
+    <option value="" selected>Select a Player</option>
   </select>
-  <canvas id="priceChart"></canvas>
+  <div id="chartContainer">
+    <canvas id="priceChart"></canvas>
+  </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const playerSelect = document.getElementById('playerSelect');
       const priceChart = document.getElementById('priceChart').getContext('2d');
 
-      // Função para carregar a lista de jogadores
+      // Function to load the list of players
       function loadPlayers() {
         fetch('/players')
           .then(response => response.json())
@@ -32,7 +36,7 @@
           });
       }
 
-      // Função para atualizar o gráfico com os dados do jogador selecionado
+      // Function to update the chart with the selected player's data
       function updateChart(playerName) {
         if (playerName) {
           fetch(`/chart-data/${playerName}`)
@@ -41,12 +45,12 @@
               const labels = chartData.map(data => new Date(data.time).toLocaleTimeString());
               const prices = chartData.map(data => data.price);
 
-              // Remove o gráfico existente, se houver
+              // Remove existing chart if any
               if (priceChart.chart) {
                 priceChart.chart.destroy();
               }
 
-              // Criar um novo gráfico
+              // Create a new chart
               priceChart.chart = new Chart(priceChart, {
                 type: 'line',
                 data: {
@@ -73,7 +77,7 @@
         }
       }
 
-      // Carregar a lista de jogadores e configurar o evento de mudança
+      // Load the list of players and set up the change event
       loadPlayers();
       playerSelect.addEventListener('change', () => {
         const selectedPlayer = playerSelect.value;

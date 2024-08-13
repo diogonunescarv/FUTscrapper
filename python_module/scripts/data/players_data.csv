@@ -1,0 +1,2712 @@
+rating,position,name,skill_moves,weak_foot,price
+91,ST,Haaland,3,3,19K
+91,ST,Mbappe,5,4,145K
+91,CM,Alexia Putellas,5,5,15.5K
+91,CM,De Bruyne,4,5,19.3K
+90,CM,Aitana Bonmati,4,5,16.3K
+90,ST,Kerr,4,4,30.8K
+90,RW,Hansen,5,4,14.8K
+90,ST,Kane,3,5,11.8K
+90,GK,Courtois,1,3,18.8K
+90,ST,Lewandowski,4,4,10.8K
+90,CF,Benzema,4,4,11.3K
+90,CF,Messi,4,4,40K
+89,CB,Ruben Dias,2,4,21.5K
+89,LW,Vini Jr.,5,4,48K
+89,CB,Mapi Leon,2,3,16K
+89,CDM,Rodri,3,4,12.5K
+89,RW,Diani,4,4,9.2K
+89,ST,Hegerberg,4,4,18.5K
+89,ST,Morgan,4,5,22K
+89,GK,Alisson,1,3,12.5K
+89,RW,Salah,4,3,18.8K
+89,CB,van Dijk,2,3,10K
+89,CDM,Casemiro,2,3,17K
+89,GK,ter Stegen,1,4,13.8K
+89,LW,Neymar Jr,5,5,22.5K
+88,ST,Smith,4,5,11.5K
+88,ST,Katoto,4,4,6.5K
+88,GK,Endler,1,3,7.5K
+88,CM,Valverde,3,4,15.5K
+88,CM,Patri Guijarro,4,4,6.2K
+88,ST,Osimhen,3,4,7K
+88,LW,Reiten,4,3,6.6K
+88,CB,Renard,2,3,6.7K
+88,CB,Irene Paredes,2,3,6.2K
+88,CAM,Debinha,5,5,6.6K
+88,ST,Popp,3,5,10.5K
+88,CM,Bernardo Silva,4,3,10K
+88,CDM,Kimmich,3,4,6.2K
+88,CAM,Bruno Fernandes,4,3,10K
+88,GK,Ederson,1,3,10.5K
+88,GK,Oblak,1,3,15.5K
+88,ST,Griezmann,4,3,6.8K
+87,CDM,Oberdorf,3,3,5.2K
+87,RW,Mead,5,4,5.2K
+87,ST,Pajor,3,3,5.2K
+87,ST,Pajor,3,3,5.2K
+87,GK,Kobel,1,3,5.2K
+87,CAM,Magull,5,3,16.8K
+87,CAM,Lavelle,4,4,29.5K
+87,CAM,Lavelle,4,4,5.2K
+87,ST,Martinez,4,4,13K
+87,GK,Donnarumma,1,3,6.9K
+87,CM,de Jong,4,3,5.2K
+87,GK,Sandra Panos,1,3,10.5K
+87,RB,Bronze,3,3,5.2K
+87,LB,Rolfo,4,5,5.2K
+87,CAM,Odegaard,5,2,5.2K
+87,GK,Maignan,1,4,5.2K
+87,CB,Marquinhos,3,3,5.2K
+87,LW,Son,4,5,5.2K
+87,CM,Modric,4,4,5.2K
+87,GK,Neuer,1,4,6K
+86,LB,Bacha,4,3,8.7K
+86,LW,Hemp,4,3,6K
+86,CAM,Musiala,5,4,6.1K
+86,CB,Araujo,2,3,3.7K
+86,CM,Bellingham,4,4,15.3K
+86,CM,Pedri,4,4,3.7K
+86,LW,Kvaratskhelia,5,5,4.7K
+86,GK,Earps,1,3,9.7K
+86,RW,Saka,3,3,3.7K
+86,CM,Little,3,4,3.7K
+86,ST,Schuller,3,3,5.9K
+86,LW,Rafael Leao,4,4,3.7K
+86,CDM,Tonali,3,4,3.7K
+86,CAM,Roord,4,4,5K
+86,CB,Eder Militao,2,3,4.3K
+86,CM,Geyoro,3,3,3.7K
+86,CB,de Ligt,2,3,3.7K
+86,ST,Miedema,4,4,11.8K
+86,LB,Karchaoui,4,4,3.7K
+86,CF,Nkunku,5,3,3.7K
+86,LW,Swanson,4,5,29K
+86,RW,Dembele,5,5,3.7K
+86,CM,Horan,4,3,5.6K
+86,RB,Alexander-Arnold,3,4,3.7K
+86,RB,Lawrence,3,4,3.8K
+86,ST,Girelli,3,4,3.7K
+86,CM,Barella,3,3,7.9K
+86,CM,Milinkovic-Savic,4,5,3.7K
+86,LB,Robertson,3,2,3.7K
+86,CDM,Kante,2,3,8.4K
+86,CF,Dybala,4,3,5.4K
+86,LB,Joao Cancelo,4,4,3.7K
+86,LB,Joao Cancelo,4,4,3.7K
+86,CF,Mane,4,4,3.7K
+86,RM,Mahrez,5,4,3.7K
+86,CM,Verratti,4,4,58K
+86,CM,Parejo,3,4,3.7K
+86,CM,Gundogan,4,4,5.4K
+86,GK,Szczesny,1,3,3.9K
+86,CM,Kroos,3,5,7.6K
+86,ST,Cristiano Ronaldo,5,4,7K
+85,GK,Zinsberger,1,4,2.2K
+85,LB,McCabe,4,3,2.2K
+85,CAM,Wirtz,4,4,2.2K
+85,RB,Ona Batlle,3,4,6.9K
+85,GK,Frohms,1,3,2.2K
+85,ST,Oshoala,4,4,14K
+85,CB,Williamson,3,3,2.2K
+85,ST,Shaw,3,4,2.2K
+85,RW,Rodrygo,4,4,2.2K
+85,CDM,Walsh,3,3,2.2K
+85,CB,Kounde,3,3,3.5K
+85,CB,Bright,2,4,2.2K
+85,LW,Foden,4,3,2.2K
+85,GK,Sheridan,1,2,2.2K
+85,CB,Bastoni,2,3,7.1K
+85,ST,Daly,3,3,2.2K
+85,CDM,Rice,2,3,6.4K
+85,LB,Hernandez,3,3,7K
+85,LW,Rashford,5,3,2.2K
+85,CB,Buchanan,2,3,2.2K
+85,RM,Huth,4,4,2.2K
+85,CDM,Henry,3,3,2.2K
+85,CDM,Henry,3,3,10K
+85,GK,Onana,1,3,2.2K
+85,CB,Hendrich,2,3,2.2K
+85,LM,Rapinoe,4,5,19K
+85,CB,Sauerbrunn,3,3,2.2K
+85,CF,Diogo Jota,4,5,2.2K
+85,LB,Acuna,3,3,2.2K
+85,RB,Di Lorenzo,3,3,2.2K
+85,LM,Coman,5,3,3K
+85,CB,Laporte,2,3,2.2K
+85,RW,Berardi,4,3,6.7K
+85,CDM,Partey,3,3,2.2K
+85,GK,Bounou,1,2,2.2K
+85,CM,Goretzka,3,4,6.9K
+85,CM,Calhanoglu,4,4,2.2K
+85,LW,Grealish,4,3,2.2K
+85,CB,Rudiger,2,3,8.2K
+85,CB,Stones,3,4,2.2K
+85,GK,Martinez,1,4,2.2K
+85,CB,Varane,2,4,9.4K
+85,CB,Alaba,3,4,2.2K
+85,GK,Navas,1,3,6.8K
+85,ST,Iago Aspas,3,4,2.2K
+85,ST,Immobile,3,4,5.6K
+85,GK,Trapp,1,4,2.2K
+85,RB,Trippier,3,4,2.2K
+84,CAM,Nagasato,4,5,5.2K
+84,CAM,Nagasato,4,5,1.2K
+84,GK,Bixby,1,2,1.2K
+84,CM,Fishlock,4,4,1.2K
+84,RW,Rodman,4,4,2.9K
+84,GK,Kingsbury,1,2,1.2K
+84,RB,Neville,3,4,1.2K
+84,CB,Dudek,2,2,1.2K
+84,CAM,Catarina Macario,4,3,1.2K
+84,CAM,Harder,4,4,1.2K
+84,ST,Russo,3,3,1.2K
+84,GK,Berger,1,3,1.9K
+84,RW,Kelly,4,4,1.3K
+84,LW,Gabriel Martinelli,4,3,4.2K
+84,CM,Bruno Guimaraes,3,2,2.8K
+84,GK,Nnadozie,1,3,1.2K
+84,CAM,Weir,4,4,1.2K
+84,RM,Mateo,4,3,1.2K
+84,CDM,Stanway,3,3,1.2K
+84,RM,Diaby,4,3,5.4K
+84,CDM,Tchouameni,3,3,1.2K
+84,LW,Diaz,4,4,1.2K
+84,CB,Bremer,2,2,1.2K
+84,CAM,Dallmann,4,4,1.2K
+84,CB,Martinez,3,3,1.2K
+84,GK,Campbell,1,2,1.2K
+84,RB,James,3,3,4K
+84,ST,Kolo Muani,4,4,172K
+84,ST,Kolo Muani,4,4,1.2K
+84,CB,Kim Min Jae,2,3,2.2K
+84,LM,Chiesa,4,4,1.4K
+84,RB,Hakimi,4,4,1.2K
+84,GK,Ramsdale,1,3,1.2K
+84,LW,Martens,5,4,1.2K
+84,RW,Raphinha,4,4,4.5K
+84,CB,Tomori,2,4,1.8K
+84,CB,Gabriel,2,2,1.2K
+84,CB,Skriniar,2,3,1.2K
+84,RW,Cascarino,4,2,5K
+84,ST,Gabriel Jesus,4,3,4.7K
+84,CDM,Scott,3,3,1.2K
+84,CAM,Majri,5,3,1.2K
+84,ST,Le Sommer,4,5,1.2K
+84,CM,Dabritz,4,4,1.2K
+84,CAM,Kirby,4,4,3.4K
+84,CAM,Kirby,4,4,1.2K
+84,RB,Marta Torrejon,2,3,1.2K
+84,GK,Alex Remiro,1,4,1.2K
+84,LW,Foord,3,3,1.2K
+84,LB,Boattin,3,4,1.2K
+84,CB,Ilestedt,2,3,1.2K
+84,CAM,Marta,5,4,1.2K
+84,CDM,Bennacer,4,3,4.9K
+84,CAM,Dunn,4,4,8.9K
+84,CAM,Dunn,4,4,1.2K
+84,RM,Marcos Llorente,3,4,1.2K
+84,CM,Mikel Merino,3,3,1.2K
+84,CDM,Ruben Neves,3,4,2.6K
+84,RM,Sane,4,2,1.2K
+84,CB,Hernandez,2,2,2.7K
+84,CAM,Maddison,4,4,1.2K
+84,CM,Lobotka,3,4,1.2K
+84,CDM,Hojbjerg,3,4,1.2K
+84,CM,De Paul,4,3,1.2K
+84,CAM,Brandt,4,4,1.2K
+84,CB,Sule,3,3,1.2K
+84,LWB,Grimaldo,3,2,1.2K
+84,CM,Rabiot,3,3,4.7K
+84,CDM,Fabinho,3,2,1.2K
+84,LM,Carrasco,4,4,15K
+84,LM,Carrasco,4,4,1.2K
+84,CB,Ginter,2,3,1.2K
+84,RM,Gnabry,4,4,1.2K
+84,GK,Pope,1,3,1.2K
+84,CF,Depay,5,3,3.9K
+84,CB,Koulibaly,2,4,2.8K
+84,CM,Luis Alberto,4,3,3.8K
+84,CDM,Koke,3,4,1.2K
+84,GK,Casteels,1,2,3.5K
+84,ST,Lukaku,3,4,1.2K
+84,ST,Lukaku,3,4,1.2K
+84,CB,Smalling,2,3,2.7K
+84,CAM,Muller,3,4,1.2K
+84,CM,Thiago,5,3,4.3K
+84,RB,Walker,3,2,5.4K
+84,GK,Gulacsi,1,2,1.2K
+84,GK,Sommer,1,4,3.8K
+84,CB,Thiago Silva,2,3,5K
+83,ST,Kundananji,4,5,9.1K
+83,ST,Ramirez,4,3,9.8K
+83,ST,Ramirez,4,3,900
+83,CM,Caruso,4,3,900
+83,LM,Galton,4,3,900
+83,RW,James,5,4,900
+83,CDM,Walti,3,4,900
+83,LB,Naschenweng,3,3,900
+83,ST,Bourdieu,3,4,900
+83,ST,Prasnikar,3,4,900
+83,CB,Viggosdottir,2,3,900
+83,CM,Gavi,3,3,900
+83,CAM,Toone,5,3,900
+83,CAM,Claudia Pina,4,5,900
+83,LM,Sellner,3,4,900
+83,CAM,Freigang,4,3,900
+83,RWB,Frimpong,3,3,900
+83,CB,Botman,2,3,900
+83,LM,Buhl,4,4,900
+83,CB,Hegering,3,3,900
+83,CB,Schlotterbeck,3,2,900
+83,LB,Blundell,2,4,900
+83,LB,Gwinn,3,3,900
+83,CB,Gilles,2,3,900
+83,CM,Fernandez,3,4,900
+83,ST,Ajibade,4,4,900
+83,ST,Vlahovic,3,3,900
+83,GK,Peyraud-Magnin,1,1,900
+83,CM,Cuthbert,4,3,900
+83,CAM,Dani Olmo,4,4,900
+83,GK,Murphy,1,2,900
+83,CB,Saliba,2,3,3.3K
+83,CF,Gakpo,4,4,3.9K
+83,CB,Pau Torres,2,3,900
+83,ST,Ludmila,3,3,5.1K
+83,RB,Carpenter,3,3,900
+83,CB,Doorsoun,2,3,900
+83,ST,Williams,4,3,3.5K
+83,LB,Davies,4,4,1.5K
+83,ST,Schick,4,3,900
+83,LB,Rauch,3,3,5.4K
+83,LB,Rauch,3,3,2.8K
+83,CB,Janssen,2,5,900
+83,CB,Janssen,2,5,2.2K
+83,CDM,Spitse,3,3,900
+83,GK,Franch,1,2,900
+83,GK,Unai Simon,1,3,900
+83,LM,Oyarzabal,3,3,900
+83,CB,Mancini,2,3,900
+83,CDM,Palhinha,2,4,1K
+83,CAM,Pellegrini,3,4,2.5K
+83,CM,Schmidt,3,4,900
+83,CB,Mbock,2,3,2.5K
+83,CB,Greenwood,2,3,1.5K
+83,CDM,Zambo Anguissa,3,3,900
+83,LB,Catley,3,2,900
+83,RW,Bonansea,4,5,900
+83,CDM,Rosucci,4,3,900
+83,CB,Eriksson,2,3,900
+83,CB,Pavard,3,3,10K
+83,CB,Pavard,3,3,900
+83,CAM,Sinclair,4,5,900
+83,GK,Naeher,1,3,900
+83,LB,Klingenberg,3,3,6K
+83,ST,Press,4,3,900
+83,RB,O'Hara,3,3,900
+83,CAM,Marozsan,5,4,900
+83,CDM,Rodriguez,2,4,1.5K
+83,CDM,Laimer,3,3,900
+83,GK,Meret,1,3,900
+83,ST,Borja Iglesias,3,3,1.1K
+83,ST,Borja Iglesias,3,3,1.6K
+83,RW,Marco Asensio,4,3,900
+83,CAM,Fekir,4,4,900
+83,CF,Rafa,4,3,2.6K
+83,CF,Rafa,4,3,900
+83,CB,Gimenez,2,3,1.7K
+83,CDM,Brozovic,3,4,900
+83,CB,Christensen,2,3,900
+83,CB,Romagnoli,2,3,900
+83,CM,Zielinski,4,5,1.4K
+83,CM,Zielinski,4,5,900
+83,CAM,Hofmann,3,4,900
+83,LM,Kostic,3,2,900
+83,CDM,Can,3,4,900
+83,ST,Gerard Moreno,3,4,900
+83,LB,Shaw,3,2,900
+83,ST,Haller,3,3,900
+83,CDM,Jorginho,3,3,900
+83,CB,Orban,2,3,900
+83,LW,Sterling,4,3,900
+83,CM,Sergi Darder,3,3,900
+83,ST,Morata,3,4,1.5K
+83,CB,Nacho Fernandez,2,4,3.5K
+83,CB,Acerbi,3,3,900
+83,ST,Ben Yedder,4,5,4.8K
+83,ST,Lacazette,4,4,900
+83,CM,Eriksen,4,5,900
+83,CDM,Sergio Busquets,3,3,900
+83,LB,Jordi Alba,3,3,900
+83,CAM,Reus,4,4,2.6K
+83,CF,Di Maria,5,2,900
+83,ST,Dzeko,3,5,900
+83,CB,Hummels,2,3,1.9K
+83,GK,Lloris,1,1,4.2K
+83,GK,Lloris,1,1,900
+83,CB,Ramos,3,3,9.9K
+82,CB,Vanegas,2,2,750
+82,CDM,Garcia,3,3,750
+82,CM,Paula Fernandez,3,3,750
+82,RW,Crnogorcevic,3,3,10K
+82,RW,Crnogorcevic,3,3,850
+82,LB,Mace,3,3,750
+82,CB,Lind,2,2,400
+82,CM,DiBernardo,4,3,750
+82,LB,Pickett,3,4,750
+82,CM,Rodriguez,3,4,2K
+82,CM,Rodriguez,3,4,700
+82,RM,Jonsdottir,3,3,750
+82,CAM,Sanchez,4,3,6K
+82,CAM,Sanchez,4,3,700
+82,CDM,Damaris Egurrola,3,3,550
+82,CDM,Zelem,4,3,1.8K
+82,ST,Billa,3,3,850
+82,ST,Billa,3,3,700
+82,CM,Hagel,3,3,750
+82,CM,Pawollek,3,4,10K
+82,CM,Pawollek,3,4,750
+82,LW,Bachmann,3,3,4.6K
+82,CB,Cook,3,3,650
+82,RW,Amaiur Sarriegi,4,4,2.4K
+82,RW,Baltimore,3,2,750
+82,LW,Nerea Eizagirre,4,3,750
+82,GK,Misa,1,3,750
+82,LW,Malard,3,4,4.9K
+82,LW,Malard,3,4,2.8K
+82,ST,England,3,4,650
+82,LB,Morroni,3,2,750
+82,ST,Nunez,3,3,1.3K
+82,LB,Nuno Mendes,3,4,750
+82,CB,Gvardiol,3,4,750
+82,CDM,Camavinga,4,3,750
+82,LM,Endo,4,3,750
+82,CAM,Lohmann,3,3,400
+82,ST,Alba Redondo,4,3,3.8K
+82,ST,Alba Redondo,4,3,700
+82,CAM,Angela Sosa,4,3,750
+82,ST,Dia,3,3,750
+82,RW,Sugita,4,5,750
+82,CDM,Hasegawa,4,4,400
+82,RM,Tsygankov,4,4,750
+82,ST,Openda,3,4,750
+82,ST,Hatch,4,4,750
+82,CM,Kokcu,3,5,750
+82,CDM,Engen,3,3,600
+82,RB,Huerta,4,3,750
+82,ST,Taremi,4,4,750
+82,ST,Taremi,4,4,700
+82,GK,Livakovic,1,2,750
+82,CB,Greboval,2,3,750
+82,LM,Sarr,4,4,700
+82,LW,Ferran Torres,4,4,750
+82,LW,Pedro Goncalves,4,4,750
+82,LW,Beerensteyn,4,2,1K
+82,LW,Beerensteyn,4,2,750
+82,GK,Vicario,1,1,500
+82,CM,Mac Allister,3,3,750
+82,CM,Maanum,3,3,750
+82,LB,Simon,3,4,750
+82,CAM,Szoboszlai,4,4,750
+82,RB,Perisset,3,3,750
+82,RB,Mazraoui,3,3,750
+82,CAM,Havertz,4,4,750
+82,ST,En-Nesyri,3,3,750
+82,GK,Mendy,1,2,750
+82,GK,Diogo Costa,1,2,750
+82,CAM,van de Donk,3,3,750
+82,CB,Le Normand,2,3,400
+82,LB,Leila Ouahabi,3,3,400
+82,RB,Molina,3,3,7K
+82,LW,Sancho,5,3,1.3K
+82,LW,Sancho,5,3,4.9K
+82,RM,Isi Palazon,3,3,750
+82,CB,Romero,3,2,750
+82,CDM,Sonnett,3,3,4.7K
+82,CDM,Sonnett,3,3,750
+82,LB,Javi Galan,4,2,1K
+82,LB,Javi Galan,4,2,750
+82,RM,Malen,4,4,750
+82,CDM,Kessie,3,4,750
+82,CB,Mario Hermoso,2,3,1.9K
+82,CB,Upamecano,3,3,750
+82,CB,Akanji,2,4,750
+82,LB,Mendy,4,5,1K
+82,CM,Bentancur,4,4,5.2K
+82,CB,Rafaelle,2,3,750
+82,CB,Butel,2,3,500
+82,CM,Dali,4,3,750
+82,CAM,Thiney,4,3,600
+82,CDM,van Egmond,3,3,600
+82,CB,Sembrant,2,4,3K
+82,CB,Sembrant,2,4,700
+82,LW,Schough,4,3,500
+82,CM,Seger,4,3,700
+82,LM,Jakobsson,3,3,750
+82,CDM,Ertz,3,3,70K
+82,CB,Krieger,3,3,6.6K
+82,LWB,Dimarco,3,2,750
+82,CB,Kimpembe,2,3,750
+82,CB,David Garcia,2,3,550
+82,GK,Provedel,1,2,750
+82,CDM,Torreira,3,3,750
+82,CM,Joelinton,3,3,750
+82,ST,Unal,3,4,750
+82,ST,Unal,3,4,700
+82,CDM,Locatelli,3,4,750
+82,LW,Zaccagni,4,4,750
+82,GK,Ledesma,1,2,1K
+82,CM,Tielemans,4,5,400
+82,CM,Fofana,4,4,700
+82,CM,Fofana,4,4,10.5K
+82,ST,Correa,4,4,750
+82,CM,Lemar,4,3,750
+82,CAM,Ricardo Horta,3,3,750
+82,RM,Joao Mario,3,4,750
+82,CDM,Andrich,3,4,750
+82,ST,Werner,3,4,7.5K
+82,ST,Werner,3,4,750
+82,LM,Grifo,4,2,400
+82,GK,Flekken,1,4,750
+82,LB,Gaya,4,3,750
+82,RM,Otavio,4,3,750
+82,CB,Schar,2,3,400
+82,LB,Guerreiro,4,2,400
+82,CM,Kovacic,4,4,750
+82,RB,Carvajal,3,3,750
+82,GK,Pickford,1,4,750
+82,CB,Inigo Martinez,2,3,750
+82,CF,Roberto Firmino,5,4,750
+82,CM,Xhaka,3,3,550
+82,GK,Lopes,1,2,750
+82,LW,Tadic,4,3,550
+82,CB,de Vrij,2,3,500
+82,ST,Wilson,3,3,750
+82,CM,Pogba,5,4,40K
+82,CB,Otamendi,2,3,750
+82,CAM,Gotze,4,4,750
+82,CDM,Fernando,3,3,5.9K
+82,ST,Giroud,3,3,1.8K
+82,ST,Joselu,3,3,10K
+82,ST,Joselu,3,3,3.9K
+81,ST,Chawinga,3,2,900
+81,RB,Calligaris,3,4,700
+81,RB,Calligaris,3,4,3.2K
+81,CAM,Andonova,4,4,750
+81,CM,LaBonta,3,3,700
+81,CB,Milazzo,3,4,700
+81,RM,Hill,3,4,5.8K
+81,ST,Dumornay,4,3,700
+81,CDM,Bilbault,2,3,700
+81,LB,Pacheco,3,3,700
+81,RW,Lehmann,3,4,7K
+81,CB,Le Tissier,3,3,700
+81,CDM,Ladd,3,3,400
+81,CM,Minge,3,3,700
+81,CM,Minge,3,3,700
+81,CM,Minge,3,3,700
+81,CAM,Kamczyk,3,3,400
+81,CM,Corboz,3,4,850
+81,LB,Hanshaw,3,3,2.9K
+81,LB,Balde,3,4,700
+81,LW,Brand,3,4,700
+81,RW,Athenea,4,5,950
+81,RW,Antony,5,2,1.8K
+81,CB,De Almeida,2,2,650
+81,CDM,Ugarte,3,3,700
+81,CDM,Al Musrati,2,2,700
+81,CDM,Al Musrati,2,2,700
+81,ST,Beto,3,3,700
+81,ST,Geyse,4,3,1.7K
+81,LB,Fox,3,4,3.5K
+81,LB,Fox,3,4,400
+81,CDM,Lattwein,3,4,700
+81,RW,Kulusevski,4,3,400
+81,CB,Tapsoba,2,3,700
+81,RW,Chukwueze,4,2,700
+81,CAM,Sancet,4,4,700
+81,CB,Rrahmani,2,4,400
+81,RW,Purce,4,3,700
+81,ST,David,3,5,700
+81,RB,Pedro Porro,3,3,700
+81,CDM,Sullivan,3,3,700
+81,CF,Joao Felix,5,4,800
+81,CF,Joao Felix,5,4,1.3K
+81,RW,Gonzalez,4,2,400
+81,RB,Glas,3,3,700
+81,RWB,Clauss,3,3,700
+81,ST,Gabi Nunes,3,4,700
+81,CB,Konate,3,2,700
+81,LW,Mariona,4,4,1.5K
+81,LW,Mariona,4,4,700
+81,LM,Terrier,3,3,700
+81,ST,Danjuma,4,4,2K
+81,ST,Danjuma,4,4,1.3K
+81,LB,Reinildo,3,3,700
+81,CM,Brais Mendez,4,3,700
+81,CDM,Alvarez,2,3,700
+81,RM,Parris,4,4,700
+81,CDM,Sangare,3,4,10K
+81,CDM,Sangare,3,4,700
+81,CAM,Lucas Paqueta,5,4,700
+81,ST,Isak,4,5,700
+81,ST,Blackstenius,4,4,700
+81,CB,Erceg,2,3,400
+81,LB,Barnes,3,3,700
+81,ST,Esther Gonzalez,3,4,650
+81,CDM,Schlager,3,3,700
+81,RWB,Dumfries,2,3,700
+81,CAM,Mount,3,4,400
+81,CAM,Kamada,3,4,700
+81,CAM,Kamada,3,4,700
+81,CM,Colaprico,3,4,700
+81,RW,Almiron,4,2,700
+81,ST,Lookman,4,4,700
+81,LB,Chilwell,3,3,400
+81,RB,Calabria,3,3,700
+81,LW,Sanchez,4,3,400
+81,CB,Yeray,2,3,700
+81,ST,Jensen,3,4,700
+81,ST,Jensen,3,4,700
+81,CM,Nobbs,4,3,700
+81,CB,Gama,2,3,400
+81,CB,Salvai,2,3,700
+81,CDM,Leupolz,3,3,2.7K
+81,CDM,Leupolz,3,3,700
+81,ST,Leroux,4,4,700
+81,CM,Fabian Ruiz,4,3,650
+81,CAM,Lo Celso,4,3,700
+81,CDM,Skhiri,3,3,400
+81,RM,Malcom,4,3,700
+81,RW,Lozano,4,3,10K
+81,RW,Lozano,4,3,700
+81,CB,Diego Carlos,3,4,700
+81,RW,Politano,4,4,700
+81,LM,Saint-Maximin,5,4,700
+81,CF,Kramaric,4,4,700
+81,RM,Inaki Williams,4,2,700
+81,ST,Zapata,3,4,10K
+81,ST,Zapata,3,4,700
+81,GK,Rulli,1,3,400
+81,CM,Bourigeaud,3,3,700
+81,CB,Tah,2,4,450
+81,CF,Anderson Talisca,4,4,700
+81,GK,Vlachodimos,1,3,700
+81,GK,Vlachodimos,1,3,700
+81,GK,Vlachodimos,1,3,700
+81,GK,Rui Silva,1,3,500
+81,ST,Laborde,3,4,400
+81,CM,Fred,4,3,700
+81,CB,Ake,2,3,700
+81,RB,Lucas Vazquez,4,4,700
+81,CDM,Cristante,3,4,400
+81,CDM,William Carvalho,3,4,400
+81,CF,Trossard,4,4,4.5K
+81,GK,Kepa,1,4,5.8K
+81,GK,Kepa,1,4,400
+81,CDM,Arnold,3,2,700
+81,ST,Milik,3,3,400
+81,GK,Samba,1,3,600
+81,LB,Mario Rui,3,3,700
+81,RW,Felipe Anderson,4,4,4.8K
+81,CM,Kondogbia,3,3,700
+81,CDM,Danilo Pereira,3,3,400
+81,CAM,Berghuis,4,3,700
+81,CB,Dunk,2,3,400
+81,CB,Danilo,3,4,700
+81,LW,Zaha,5,3,700
+81,LW,Insigne,4,4,700
+81,CB,Coates,2,3,700
+81,CAM,Mkhitaryan,4,5,700
+81,GK,Leno,1,3,700
+81,CDM,Matic,3,3,1.4K
+81,CDM,Matic,3,3,400
+81,GK,Hradecky,1,3,700
+81,CAM,Muniain,4,3,1.2K
+81,ST,Sanchez,4,4,800
+81,CB,Alderweireld,2,3,400
+81,CB,Kjaer,2,3,500
+81,CM,Capoue,3,3,1.1K
+81,GK,Rui Patricio,1,2,400
+81,CF,Mertens,4,4,700
+81,CM,Rakitic,3,4,3.8K
+81,CM,Rakitic,3,4,850
+81,GK,Schmeichel,1,3,750
+81,GK,Schmeichel,1,3,10K
+81,CB,Raul Albiol,2,3,400
+81,LW,Gomez,4,4,30K
+81,GK,Ochoa,1,3,700
+81,CB,Pepe,2,3,10K
+80,CB,Carmen Menayo,2,3,700
+80,RB,Antonia Silva,4,3,700
+80,CDM,Leire Banos,3,3,2.3K
+80,CDM,Leire Banos,3,3,700
+80,CM,Castellanos,5,4,2.6K
+80,ST,Kouassi,3,4,700
+80,CB,Tainara,2,3,400
+80,RB,Westphal,3,3,400
+80,CB,Girma,3,3,500
+80,GK,Haracic,1,2,700
+80,CDM,O'Sullivan,3,3,700
+80,RM,Kerolin Nicoli,4,4,700
+80,GK,Tullis-Joyce,1,2,10K
+80,GK,Tullis-Joyce,1,2,700
+80,LW,Weaver,3,4,400
+80,CAM,Garbino,4,3,400
+80,CB,Lakrar,2,3,700
+80,CB,Lakrar,2,3,700
+80,RM,Robert,4,4,900
+80,RWB,Koivisto,3,4,700
+80,CDM,Ingle,3,4,400
+80,RB,Karl,3,3,700
+80,LW,Memeti,3,3,400
+80,CDM,Sens,4,3,2.1K
+80,CDM,Sens,4,3,350
+80,CDM,Jean-Francois,3,2,700
+80,ST,Anyomi,4,4,700
+80,CM,Reuteler,3,3,700
+80,CDM,Zadrazil,4,3,400
+80,CB,Deslandes,3,3,400
+80,LM,Bussy,3,3,750
+80,RB,Charles,3,5,400
+80,GK,Mamardashvili,1,3,700
+80,CB,Nusken,2,3,500
+80,CM,Pinto,3,4,750
+80,RB,Arnau Martinez,2,3,400
+80,RB,Kleinherne,3,4,400
+80,ST,Goncalo Ramos,2,4,700
+80,CDM,Caicedo,3,3,700
+80,LM,Mitoma,4,4,700
+80,CM,Vitinha,3,3,400
+80,LM,Adeyemi,4,4,700
+80,CDM,Zubimendi,3,4,400
+80,CB,Ibanez,2,2,700
+80,CB,Hancko,2,3,700
+80,ST,Alvarez,4,4,700
+80,ST,Arthur Cabral,3,4,400
+80,CDM,Fofana,3,3,700
+80,CB,Davidson,2,4,1.6K
+80,CB,Davidson,2,4,700
+80,RB,Mathias,3,3,400
+80,LW,Lauriente,4,3,400
+80,RM,Lucia Garcia,4,4,5.7K
+80,CM,Le Garrec,3,4,550
+80,CAM,Elmas,4,4,4.9K
+80,CAM,Elmas,4,4,400
+80,CM,Koopmeiners,3,2,400
+80,CM,Frattesi,3,4,700
+80,CM,Kayikci,4,3,700
+80,LM,Pepe,4,2,700
+80,RM,Zaniolo,4,3,950
+80,RM,Zaniolo,4,3,700
+80,CB,Danso,2,3,700
+80,LB,Estupinan,3,3,400
+80,RW,Kubo,4,4,400
+80,RB,Foyth,3,3,400
+80,CDM,Kamara,3,3,700
+80,CB,Medina,3,2,700
+80,CB,Dahlkemper,2,3,400
+80,RM,David Neres,5,3,700
+80,CB,Luiz Felipe,3,4,10K
+80,CB,Luiz Felipe,3,4,700
+80,CDM,Fran Beltran,3,3,400
+80,RW,Edwards,4,3,400
+80,LW,Barnes,3,4,400
+80,RB,Diogo Dalot,4,4,700
+80,CDM,Florentino,3,2,400
+80,CB,Zubeldia,2,3,700
+80,CDM,Arambarri,3,3,400
+80,CM,Endo,3,4,700
+80,ST,Richarlison,4,5,700
+80,RB,White,2,4,400
+80,CM,Palacios,3,4,700
+80,CAM,Brahim,4,5,850
+80,CAM,Brahim,4,5,700
+80,ST,Abraham,3,3,400
+80,RB,Torrent,3,3,400
+80,RB,Wan-Bissaka,3,2,700
+80,ST,Andre Silva,4,3,700
+80,ST,Andre Silva,4,3,700
+80,CM,Aleix Garcia,3,3,350
+80,CM,Aleix Garcia,3,3,1.3K
+80,ST,Avila,3,5,2K
+80,ST,Avila,3,5,700
+80,LW,Nuno Santos,4,3,700
+80,LB,Zinchenko,3,3,400
+80,CM,Fleming,4,4,700
+80,CM,Fleming,4,4,700
+80,CM,Dafeur,3,2,400
+80,ST,Asseyi,3,3,700
+80,CM,Toletti,4,3,700
+80,GK,Benkarth,1,3,400
+80,GK,Dmitrovic,1,2,400
+80,GK,Lola Gallardo,1,3,700
+80,LB,Tierney,3,3,700
+80,LB,Tierney,3,3,700
+80,CM,Mewis,4,4,4K
+80,CB,Aritz Elustondo,2,3,550
+80,RM,Buendia,4,4,550
+80,LM,Alex Berenguer,3,4,700
+80,CM,Joan Jordan,3,4,400
+80,LB,Bensebaini,3,4,700
+80,CDM,Amrabat,3,2,400
+80,CDM,Amrabat,3,2,600
+80,LB,Marusic,3,4,700
+80,GK,David Soria,1,3,400
+80,CDM,Rongier,3,4,700
+80,ST,Muriqi,3,3,400
+80,GK,Omlin,1,3,400
+80,CAM,Pasalic,4,4,400
+80,CDM,Weigl,3,3,400
+80,ST,Watkins,3,4,700
+80,CB,Lindelof,3,4,400
+80,GK,Pau Lopez,1,3,400
+80,GK,David Raya,1,3,400
+80,RB,Traore,3,3,700
+80,LB,Alex Moreno,3,3,700
+80,ST,Toney,3,3,700
+80,ST,Martial,4,4,1.8K
+80,LB,Tagliafico,3,2,700
+80,CB,Mbemba,2,3,700
+80,CF,Mukhtar,3,5,700
+80,RW,Ziyech,5,2,400
+80,CDM,de Roon,3,3,700
+80,CAM,Forsberg,4,4,2.7K
+80,CAM,Forsberg,4,4,400
+80,CM,Saul,3,4,700
+80,GK,Matheus,1,3,400
+80,CAM,Savanier,4,5,700
+80,RW,Ocampos,4,3,400
+80,ST,Fullkrug,3,4,5K
+80,ST,Fullkrug,3,4,400
+80,CM,Sabitzer,3,4,700
+80,GK,Edgar Badia,1,3,400
+80,GK,Edgar Badia,1,3,700
+80,LWB,Spinazzola,4,4,700
+80,RW,Suso,4,3,400
+80,CF,Deulofeu,4,4,2.6K
+80,CM,Veretout,3,3,700
+80,ST,Icardi,3,4,400
+80,LB,Biraghi,3,3,400
+80,CDM,Oriol Romeu,2,3,400
+80,RB,Sergi Roberto,3,3,400
+80,CAM,Jonathan Viera,4,4,3K
+80,CAM,Jonathan Viera,4,4,1K
+80,CAM,Isco,4,3,400
+80,CB,Matip,2,2,800
+80,GK,Baumann,1,1,400
+80,CB,Gudelj,3,2,600
+80,RM,Cuadrado,5,3,700
+80,RB,De Marcos,4,3,700
+80,CM,Coquelin,3,4,850
+80,ST,Aubameyang,4,4,700
+80,CB,Rafael Toloi,2,3,700
+80,CB,Darmian,3,5,400
+80,CB,Bonucci,2,4,10K
+80,CB,Bonucci,2,4,3.8K
+80,CB,Bonucci,2,4,3.9K
+80,ST,Arnautovic,4,4,700
+80,CM,Henderson,3,3,4.7K
+80,CM,Henderson,3,3,400
+80,GK,Muslera,1,2,400
+80,CM,Wijnaldum,3,4,10K
+80,CM,Wijnaldum,3,4,700
+80,GK,Adan,1,3,2.2K
+80,GK,Ospina,1,3,700
+80,GK,Bravo,1,3,500
+80,GK,Mignolet,1,3,700
+80,RW,Lamela,4,3,700
+80,RW,Vela,4,2,3.9K
+80,RB,Jesus Navas,4,2,400
+80,CB,Chiellini,2,3,2.2K
+79,GK,Elene Lete,1,2,400
+79,GK,Adriana Nanclares,1,2,400
+79,CAM,Santos,3,4,900
+79,CB,Cinta Rodriguez,2,2,700
+79,LB,Andrea Medina,3,3,400
+79,CB,Leal,2,2,400
+79,CDM,Ana Gonzalez,3,3,700
+79,ST,Chanda,3,3,700
+79,LWB,Laurita,3,3,400
+79,RWB,Itziar Pinillos,3,3,400
+79,GK,Paraluta,1,2,1.2K
+79,GK,Maria Valenzuela,1,2,400
+79,RB,Maria De Alharilla,3,3,400
+79,CB,Nuria Mendoza,2,2,2.3K
+79,CB,Nuria Mendoza,2,2,350
+79,LB,Paula Tomas,4,3,700
+79,CM,Cankovic,4,3,400
+79,ST,Franssi,3,4,700
+79,CAM,Groom,3,3,1.5K
+79,CAM,Groom,3,3,350
+79,LB,McNabb,3,3,400
+79,CAM,Kornieck,3,3,1.1K
+79,CAM,Kornieck,3,3,4.1K
+79,ST,Doniak,3,4,400
+79,ST,Onumonu,3,3,3.9K
+79,CB,Edmonds,2,3,400
+79,CB,Ball,2,3,400
+79,ST,Salmon,3,3,10K
+79,ST,Salmon,3,3,700
+79,GK,Lund,1,2,400
+79,LB,Wright,3,3,350
+79,LB,Wright,3,3,4.9K
+79,ST,Ordonez,3,4,400
+79,RB,Kuikka,3,4,2.9K
+79,RB,Kuikka,3,4,350
+79,CDM,Coffey,3,3,700
+79,LM,Fleury,3,3,400
+79,ST,Becho,4,3,700
+79,CM,Corboz,3,4,400
+79,LW,Feller,3,3,700
+79,CB,Pasquereau,2,3,400
+79,LM,Dufour,4,3,700
+79,RB,Lardez,3,3,400
+79,ST,Mondesir,3,2,700
+79,RB,Mayling,3,3,400
+79,CAM,Svitkova,4,5,700
+79,CAM,Svitkova,4,5,1.4K
+79,CM,Brynjarsdottir,3,3,400
+79,CB,Bartrip,2,3,700
+79,RB,Maritz,3,4,10K
+79,RB,Maritz,3,4,350
+79,LM,Zawistowska,4,3,700
+79,CAM,Beck,3,3,350
+79,CAM,Beck,3,3,600
+79,ST,Folmli,4,3,400
+79,CM,Felde,3,4,400
+79,LB,Muller,3,3,2.6K
+79,LB,Muller,3,3,700
+79,RW,Kolb,3,2,400
+79,GK,Johannes,1,3,400
+79,LB,Agrez,2,3,350
+79,LB,Agrez,2,3,3.9K
+79,ST,Kossler,3,2,500
+79,CB,Specht,2,2,400
+79,CB,Feldkamp,2,3,700
+79,CM,Hartig,3,4,700
+79,CM,Grabowska,3,3,500
+79,CM,Grabowska,3,3,700
+79,LB,Svava,4,3,700
+79,CM,Dunst,4,3,400
+79,RB,Rall,3,5,5.9K
+79,RB,Rall,3,5,350
+79,GK,Grohs,1,3,400
+79,GK,Picaud,1,2,2K
+79,ST,Damnjanovic,3,3,400
+79,GK,Chavas,1,2,400
+79,LB,Levasseur,3,4,400
+79,CB,Wubben-Moy,2,3,600
+79,LB,Olga Carmona,4,3,700
+79,GK,Evrard,1,2,500
+79,GK,Evrard,1,2,1K
+79,LM,Yeremy Pino,3,4,400
+79,LM,Carlos Augusto,2,2,400
+79,CB,Goncalo Inacio,2,2,700
+79,RM,Nico Williams,4,5,700
+79,CB,Sutalo,2,3,700
+79,RB,Sheila,4,3,700
+79,RB,Ainhoa Moraza,3,3,400
+79,CB,Hincapie,3,2,700
+79,RW,Marta Cardona,4,3,400
+79,CM,Matheus Nunes,3,3,30K
+79,CM,Matheus Nunes,3,3,700
+79,CF,Raspadori,4,5,700
+79,GK,Carnesecchi,1,3,400
+79,CB,Timber,3,3,700
+79,LB,Renan Lodi,4,3,400
+79,LB,Renan Lodi,4,3,350
+79,CB,Kathellen Sousa,2,3,700
+79,CB,Fofana,2,3,400
+79,CB,Vivian,2,2,400
+79,RB,Boey,3,3,10K
+79,RB,Boey,3,3,4.5K
+79,GK,Roebuck,1,3,2K
+79,GK,Roebuck,1,3,350
+79,CB,Edgar,2,2,400
+79,ST,Balogun,3,4,400
+79,ST,Balogun,3,4,10K
+79,CB,Bjorn,2,3,4.6K
+79,CB,Bjorn,2,3,650
+79,CM,Thuram,3,3,700
+79,CB,Cometti,2,3,400
+79,CAM,Bonsegundo,4,3,400
+79,CM,Banini,4,4,700
+79,CM,Gravenberch,4,4,700
+79,CM,Gravenberch,4,4,30K
+79,RB,Shimizu,3,3,400
+79,CB,Todibo,3,2,700
+79,CAM,Almada,4,4,800
+79,CAM,Simons,4,3,700
+79,CAM,Simons,4,3,700
+79,RB,Bah,3,5,700
+79,RW,Kudus,4,3,700
+79,CB,Aguerd,2,3,400
+79,CM,Teuma,3,5,700
+79,CM,Majer,4,3,400
+79,ST,Snoeijs,3,3,400
+79,CB,Catena,2,3,400
+79,CB,Simakan,2,3,700
+79,ST,McCaskill,3,3,2.6K
+79,ST,McCaskill,3,3,450
+79,CAM,Baumgartner,4,3,400
+79,CB,Schuurs,2,3,400
+79,CB,Cissoko,2,3,1.2K
+79,RB,Geertruida,2,3,400
+79,CM,Gemma Gili,3,3,400
+79,ST,Gouiri,4,3,5.4K
+79,ST,Gouiri,4,3,400
+79,RB,Baku,3,4,700
+79,ST,McDonald,4,3,1.7K
+79,CB,Casale,2,3,700
+79,LB,Cucurella,3,3,400
+79,RB,Leticia Santos,4,3,3.1K
+79,CB,Pinnock,2,3,400
+79,CB,Milenkovic,2,3,400
+79,ST,Castellanos,3,3,400
+79,CDM,McTominay,3,3,400
+79,CDM,Soucek,3,3,400
+79,CDM,Douglas Luiz,3,2,650
+79,CDM,Douglas Luiz,3,2,350
+79,CM,Guendouzi,4,3,10K
+79,CM,Guendouzi,4,3,700
+79,CDM,Bissouma,4,3,400
+79,RW,Prince,3,3,4.9K
+79,RW,Prince,3,3,400
+79,GK,Di Gregorio,1,3,350
+79,GK,Di Gregorio,1,3,400
+79,CAM,Eze,4,3,400
+79,CB,Zadorsky,2,3,2.5K
+79,CB,Zadorsky,2,3,350
+79,RB,Lazzari,3,3,700
+79,CM,Robertone,4,4,700
+79,CM,Neuhaus,3,4,400
+79,CAM,Reynoso,4,3,400
+79,CM,Carlos Soler,3,4,700
+79,CM,Groenen,3,4,700
+79,CDM,Demann,3,3,400
+79,GK,Henderson,1,3,10K
+79,GK,Henderson,1,3,700
+79,CM,Claudia Zornoza,3,3,550
+79,CM,Aursnes,3,3,700
+79,CB,Lienhart,2,3,400
+79,RB,Montiel,3,3,1K
+79,RB,Montiel,3,3,1.4K
+79,CB,Matheus Reis,3,2,700
+79,CB,Aidoo,2,3,700
+79,CB,Disasi,2,2,400
+79,RM,Bailey,4,3,700
+79,CDM,Zakaria,3,3,700
+79,GK,Alvarado,1,2,400
+79,GK,Robert Sanchez,1,4,700
+79,CDM,Maitane,3,3,400
+79,GK,Audero,1,2,700
+79,GK,Audero,1,2,400
+79,ST,Thuram,3,3,400
+79,GK,Arnold,1,2,400
+79,LW,Pulisic,4,4,400
+79,ST,Petermann,4,3,400
+79,CB,Konsa,2,3,700
+79,LB,Chapman,2,3,400
+79,LW,Beckie,3,3,400
+79,RB,Cash,3,2,400
+79,LW,Hurtig,4,4,400
+79,CDM,Ndidi,3,4,400
+79,CAM,Kaku,4,3,400
+79,RW,Wang Shuang,3,4,5.9K
+79,RW,Wang Shuang,3,4,750
+79,CB,Houghton,2,3,5K
+79,CM,Mewis,4,3,750
+79,CM,Mewis,4,3,700
+79,RB,Mukiele,3,3,400
+79,LW,Bergwijn,4,2,400
+79,LM,Golovin,4,4,400
+79,CB,Gomez,3,3,700
+79,ST,Goncalo Guedes,4,4,4.2K
+79,ST,Goncalo Guedes,4,4,1K
+79,ST,Goncalo Guedes,4,4,700
+79,RM,Bowen,4,3,400
+79,CDM,Phillips,3,3,1.6K
+79,CDM,Phillips,3,3,2K
+79,GK,Sergio Herrera,1,3,400
+79,LWB,Gosens,3,3,400
+79,CM,Dani Ceballos,4,3,400
+79,CB,Klostermann,2,3,700
+79,LB,Angelino,4,3,10K
+79,LB,Angelino,4,3,350
+79,RM,Ciurria,3,4,400
+79,ST,Ajorque,3,3,400
+79,CDM,Tolisso,3,2,400
+79,ST,Sorloth,3,4,400
+79,ST,Morales,4,4,1K
+79,LM,Alvaro Garcia,3,3,400
+79,LWB,Zappacosta,3,3,400
+79,ST,Mitrovic,3,4,700
+79,LM,Ayoze Perez,4,4,400
+79,CAM,Zelarayan,4,3,400
+79,GK,Benitez,1,2,400
+79,GK,Musso,1,3,400
+79,LB,Alex Telles,3,2,400
+79,GK,Jose Sa,1,2,400
+79,CB,Mings,3,2,450
+79,RWB,Frankowski,3,3,700
+79,CM,Demirbay,4,4,400
+79,GK,Dimitrievski,1,2,400
+79,CDM,McGregor,4,4,700
+79,CAM,Carles Gil,4,4,400
+79,CM,McGinn,3,2,400
+79,ST,Raul de Tomas,4,4,400
+79,RB,Ricardo Pereira,3,4,400
+79,LB,Gunter,3,2,400
+79,CF,Romarinho,4,4,700
+79,CM,Oliver Torres,3,4,400
+79,RM,March,3,2,500
+79,CM,Moi Gomez,4,5,400
+79,GK,Terracciano,1,2,400
+79,RM,Visca,3,4,400
+79,CB,Umtiti,2,3,400
+79,CB,Zouma,2,3,400
+79,CB,Maguire,2,3,4.6K
+79,CB,Tarkowski,2,4,400
+79,CB,David Lopez,2,3,400
+79,GK,Ronnow,1,2,400
+79,ST,Volland,3,4,400
+79,LB,Digne,3,2,400
+79,CDM,Rode,3,3,950
+79,GK,Ortega,1,4,2.1K
+79,CM,Vanaken,4,5,400
+79,GK,Unnerstall,1,1,700
+79,CB,Trauner,2,3,700
+79,GK,Sels,1,2,1.5K
+79,GK,Sels,1,2,500
+79,ST,Gregoritsch,3,3,400
+79,ST,Muriel,4,4,800
+79,ST,Muriel,4,4,700
+79,ST,Aboubakar,4,4,400
+79,CB,Marc Bartra,3,3,400
+79,CB,Burn,2,3,400
+79,GK,Perin,1,3,400
+79,LM,Juanmi,3,3,4.9K
+79,LM,Juanmi,3,3,400
+79,LM,Juanmi,3,3,1.6K
+79,CM,Kampl,3,4,400
+79,CAM,Cabella,4,4,400
+79,CDM,Delaney,2,4,700
+79,CDM,Delaney,2,4,700
+79,LB,Marcos Alonso,3,3,1K
+79,CM,Ander Herrera,3,4,400
+79,GK,Silvestri,1,3,400
+79,CDM,Andre,3,3,400
+79,ST,de Jong,3,5,400
+79,CB,Mee,2,3,400
+79,RW,Pedro,4,5,400
+79,CAM,Coutinho,5,4,400
+79,CM,Bonaventura,4,3,400
+79,RB,Azpilicueta,2,3,400
+79,LB,Yuri Berchiche,3,3,700
+79,LW,Perisic,4,5,400
+79,LW,Perisic,4,5,400
+79,CM,Banega,4,4,8.9K
+79,CDM,Witsel,3,4,400
+79,CF,Candreva,4,4,500
+79,CB,Vertonghen,3,3,400
+79,GK,Marcelo Grohe,1,2,550
+79,GK,Fabianski,1,2,400
+79,GK,Mandanda,1,2,400
+79,GK,Consigli,1,3,400
+78,CDM,Iris Arnaiz,3,3,600
+78,CDM,Iris Arnaiz,3,3,350
+78,LW,Irina Uribe,4,4,400
+78,RW,Asun Martinez,4,3,400
+78,CM,Aida Esteve,2,3,400
+78,GK,Paola Ulloa,1,2,400
+78,ST,Martin-Prieto,3,3,1.5K
+78,ST,Martin-Prieto,3,3,350
+78,RB,Oihane Hernandez,3,4,400
+78,LM,Zielinski,3,3,400
+78,CM,Hayashi,3,5,550
+78,CB,Antonio Silva,2,2,700
+78,LW,Salma Paralluelo,4,4,700
+78,GK,Heil,1,2,400
+78,GK,Cata Coll,1,3,400
+78,CDM,Weatherholt,3,3,1.7K
+78,CDM,Weatherholt,3,3,350
+78,CAM,DeMelo,4,3,400
+78,CB,Morse,2,5,8K
+78,GK,Boyd,1,2,2.5K
+78,CB,Staab,2,3,1.6K
+78,CB,Staab,2,3,350
+78,RW,Ryan,3,3,400
+78,CB,Hubly,2,3,400
+78,LB,Nilden,3,4,3.4K
+78,LB,Nilden,3,4,350
+78,CB,Lenzini,2,3,700
+78,CB,Prisock,3,2,3K
+78,CAM,Ouchene,3,3,400
+78,CM,Palis,3,3,400
+78,CB,Puntigam,3,3,400
+78,CM,Coombs,4,3,400
+78,RW,Park,4,3,400
+78,RW,Evans,4,3,600
+78,RW,Evans,4,3,350
+78,LM,Hanson,4,5,700
+78,CB,Carter,2,3,400
+78,GK,Voll,1,2,400
+78,CM,Wilde,3,3,400
+78,CAM,Xhemaili,3,3,400
+78,ST,Hoffmann,3,2,400
+78,RB,Linder,2,2,400
+78,GK,Tufekovic,1,2,400
+78,ST,Karczewska,3,3,400
+78,GK,Kiedrzynek,1,3,400
+78,ST,Bruun,3,3,400
+78,CM,Fazer,3,3,400
+78,CB,van de Ven,3,3,700
+78,CB,Turner,2,4,400
+78,CM,Rosa Marquez,4,4,700
+78,CM,Maite Oroz,4,4,700
+78,ST,Jessica Silva,5,4,700
+78,ST,Uzuni,4,3,400
+78,ST,Wahi,4,4,700
+78,ST,Jackson,3,3,400
+78,CM,Gabri Veiga,3,4,400
+78,CM,Tere Abelleira,4,4,400
+78,ST,Evanilson,3,4,400
+78,CM,Hatate,4,4,400
+78,CB,Kalulu,2,3,700
+78,RW,Wimmer,4,4,700
+78,LM,Tresor,5,3,10K
+78,LM,Tresor,5,3,700
+78,CM,Veerman,3,4,400
+78,LW,Ansu Fati,4,4,700
+78,LW,Ansu Fati,4,4,700
+78,CDM,Abdul Samed,2,2,400
+78,GK,Chevalier,1,3,400
+78,ST,Laba,3,4,400
+78,RW,Olise,4,2,8K
+78,RW,Olise,4,2,350
+78,CM,Andre Almeida,3,3,400
+78,CM,Grosso,4,4,550
+78,CM,Moncayola,3,4,400
+78,RB,Emerson Royal,3,3,400
+78,ST,Fran Navarro,3,3,400
+78,LB,Espino,3,3,700
+78,LM,Ramsey,3,4,700
+78,CDM,Camara,3,3,700
+78,CM,Caqueret,3,3,400
+78,LB,Fran Garcia,3,3,700
+78,CB,Nouwen,2,3,400
+78,ST,Nahikari,4,3,400
+78,CB,Swaby,2,3,700
+78,ST,Lee Geum Min,3,3,400
+78,GK,Gibson,1,2,400
+78,RM,Reyna,4,2,400
+78,RM,Reyna,4,2,350
+78,LB,Reguilon,3,3,2.8K
+78,LB,Reguilon,3,3,400
+78,ST,Gimenez,3,3,400
+78,RB,Coufal,3,3,400
+78,GK,Schmitz,1,3,400
+78,LW,Lee Kang In,4,3,400
+78,GK,Smith,1,2,400
+78,CDM,Zerboni,3,4,400
+78,LWB,Sosa,3,3,10K
+78,LWB,Sosa,3,3,400
+78,GK,Musovic,1,2,400
+78,RW,Mbeumo,4,2,400
+78,RW,Saelemaekers,4,4,400
+78,RW,Saelemaekers,4,4,400
+78,CDM,Doucoure,3,3,400
+78,CB,Badiashile,2,3,400
+78,CM,Luis Milla,3,3,400
+78,CM,Morita,3,2,400
+78,CB,Mavropanos,2,4,700
+78,RB,Wedemeyer,2,3,400
+78,CM,Gunnarsdottir,3,3,550
+78,GK,Rajkovic,1,2,400
+78,CB,Guehi,2,4,400
+78,CF,Vlasic,3,5,400
+78,RW,Junior Messias,3,3,400
+78,LB,Olivera,3,3,400
+78,CM,Reijnders,3,4,700
+78,ST,Nzola,3,4,700
+78,LW,Smith Rowe,4,4,450
+78,ST,Matheus Cunha,4,4,400
+78,CAM,Pessina,3,2,400
+78,LM,Galeno,4,3,700
+78,CM,Maksimovic,3,3,400
+78,CM,Maksimovic,3,3,350
+78,LW,Lang,4,3,700
+78,CM,Haidara,3,2,400
+78,CM,Gallagher,3,2,400
+78,ST,Rose,4,3,400
+78,LB,Malacia,3,3,700
+78,CM,Willock,3,3,700
+78,ST,Berisha,3,3,10K
+78,ST,Berisha,3,3,400
+78,CM,Longstaff,2,3,400
+78,CM,Barak,4,3,700
+78,LB,Raum,3,2,700
+78,CB,Tounkara,2,2,500
+78,ST,Kean,3,3,700
+78,CB,Ndicka,2,3,5.7K
+78,CB,Ndicka,2,3,700
+78,RM,Under,4,4,400
+78,CDM,Santi Comesana,3,4,400
+78,CB,Nelsson,2,2,400
+78,CM,Ndombele,4,3,400
+78,CM,Ndombele,4,3,550
+78,CDM,Ozcan,3,3,700
+78,LM,Jota,5,4,700
+78,CM,Gedson Fernandes,4,3,700
+78,CB,Marcao,2,3,400
+78,CB,van Dongen,3,2,4.3K
+78,RM,van de Sanden,4,3,700
+78,RM,Orsolini,4,4,400
+78,LM,Sinisterra,4,4,10K
+78,LM,Sinisterra,4,4,700
+78,RB,Riley,3,3,700
+78,GK,Nayler,1,3,400
+78,CDM,Adams,3,3,700
+78,RB,Tomiyasu,2,5,400
+78,RM,Ito,4,4,700
+78,CB,Doekhi,2,3,400
+78,RM,Doan,4,3,400
+78,LB,Caio Henrique,3,2,400
+78,GK,Bijlow,1,2,400
+78,CF,Malinovskyi,4,4,400
+78,GK,Lafont,1,3,700
+78,ST,Banza,3,3,4.3K
+78,ST,Banza,3,3,400
+78,CB,Diop,2,3,400
+78,RM,Lukebakio,4,3,400
+78,CAM,Blas,4,2,400
+78,CDM,Pepelu,3,3,400
+78,CM,Renato Sanches,4,4,3.2K
+78,CM,Renato Sanches,4,4,700
+78,CM,Arthur,4,3,350
+78,CM,Arthur,4,3,2K
+78,CM,Sensi,4,4,400
+78,CM,Krunic,3,3,1.3K
+78,CM,Krunic,3,3,350
+78,CM,Sow,3,4,700
+78,ST,Pavlidis,3,4,400
+78,ST,Pavlidis,3,4,350
+78,CM,van den Boomen,3,4,400
+78,RB,Henrichs,3,4,400
+78,LB,Pedraza,3,2,400
+78,RB,Nelson Semedo,4,3,400
+78,CB,Ivana Andres,2,3,1.9K
+78,CAM,Amanda Sampedro,3,4,700
+78,RB,Robles,3,2,7K
+78,CDM,Quinn,3,3,400
+78,RB,Soyer,3,4,1.2K
+78,GK,Philippe,1,3,400
+78,LB,Stokes,4,3,1.2K
+78,RW,Raso,3,4,700
+78,GK,Williams,1,2,8.3K
+78,ST,Scamacca,4,3,400
+78,ST,Bremer,3,4,400
+78,CDM,Gautrat,4,3,2K
+78,CDM,Gautrat,4,3,350
+78,GK,Cakir,1,3,400
+78,RM,Pepe,4,2,6.1K
+78,RM,Pepe,4,2,400
+78,LW,Bouanga,4,4,700
+78,ST,Diallo,3,3,400
+78,GK,Butez,1,4,400
+78,CM,Castrovilli,4,3,400
+78,LB,Henry,3,2,700
+78,RB,Wolf,3,4,2.4K
+78,CB,Andersen,2,3,400
+78,CM,Lopez,4,3,400
+78,CM,Lopez,4,3,400
+78,ST,Becker,3,2,700
+78,ST,Becker,3,2,700
+78,RM,Karsdorp,3,3,400
+78,ST,Embolo,3,4,400
+78,CAM,Lee Jae Sung,3,3,400
+78,RWB,Pablo Maffeo,3,3,10K
+78,RWB,Pablo Maffeo,3,3,400
+78,CB,Gradit,2,2,400
+78,CAM,Driussi,3,2,400
+78,CM,Keita,4,4,400
+78,CDM,Tapia,3,4,400
+78,LM,Benrahma,4,4,4.2K
+78,LM,Benrahma,4,4,350
+78,GK,Dubravka,1,2,400
+78,LM,Munir,4,3,400
+78,RWB,Hateboer,3,3,400
+78,ST,Sanabria,4,4,400
+78,CB,Gigot,2,3,350
+78,CM,Dahoud,4,4,400
+78,CM,Dahoud,4,4,400
+78,GK,Blake,1,2,400
+78,ST,Simeone,3,4,400
+78,CDM,Cuellar,3,3,700
+78,ST,Azmoun,3,4,450
+78,ST,Azmoun,3,4,350
+78,CDM,Lemina,3,4,400
+78,RW,Bernardeschi,4,3,400
+78,LWB,Max,3,3,400
+78,LM,Ruben Garcia,4,2,400
+78,CB,Hegazi,2,2,400
+78,RW,Ghezzal,4,3,400
+78,ST,Vardy,3,4,400
+78,LW,Thomasson,4,4,400
+78,ST,Belotti,3,5,4.5K
+78,ST,Belotti,3,5,500
+78,ST,Belotti,3,5,400
+78,CB,Saiss,3,3,400
+78,RB,Veltman,2,4,400
+78,CB,Kolasinac,2,2,400
+78,CB,Felipe,2,3,400
+78,CB,Webster,2,4,400
+78,CDM,Stepanenko,3,3,400
+78,GK,Mvogo,1,3,400
+78,CM,Ward-Prowse,3,3,400
+78,GK,Fernando,1,2,400
+78,GK,Gazzaniga,1,3,700
+78,RB,Hector Bellerin,3,2,400
+78,LM,Hazard,4,4,10K
+78,LM,Hazard,4,4,400
+78,CAM,Igor Coronado,5,4,3K
+78,CDM,Freuler,4,3,400
+78,CB,Gabriel Paulista,2,2,400
+78,CB,Gabriel Paulista,2,2,1.9K
+78,CB,Gabriel Paulista,2,2,400
+78,LB,Ismaily,4,2,400
+78,GK,Marchesin,1,3,4.9K
+78,GK,Cillessen,1,3,400
+78,GK,Cillessen,1,3,350
+78,CDM,Clasie,3,3,400
+78,GK,Ryan,1,4,400
+78,RM,Pablo Sarabia,4,4,400
+78,RM,Dani Rodriguez,3,3,400
+78,CM,Sergio Oliveira,3,4,400
+78,CM,Pizzi,3,4,400
+78,RB,Aurier,3,3,2.9K
+78,RB,Aurier,3,3,400
+78,RB,Tavernier,3,2,400
+78,CB,Lovren,2,4,400
+78,CAM,Kainz,4,5,400
+78,GK,Neto,1,2,400
+78,GK,Aitor,1,2,400
+78,GK,Areola,1,3,400
+78,CM,Pereyra,4,4,2.1K
+78,LB,Alex Sandro,3,3,3.5K
+78,LM,El Shaarawy,4,3,400
+78,CM,Gros,4,4,400
+78,ST,Antonio,4,3,400
+78,GK,Guaita,1,3,350
+78,CM,Oscar,4,3,400
+78,CAM,Stindl,4,4,600
+78,ST,Choupo-Moting,3,4,500
+78,CAM,Trejo,3,4,400
+78,CB,Jose Fonte,2,3,400
+78,CB,Dante,3,4,400
+78,CM,Herrera,3,4,400
+78,CM,Vesga,3,3,400
+77,ST,Hoekstra,3,3,400
+77,CM,Szewieczkova,3,3,400
+77,CAM,Ana Vitoria,3,3,550
+77,CAM,Ana Vitoria,3,3,350
+77,CB,Hunt,2,3,400
+77,ST,Holdt,3,2,400
+77,ST,Bredgaard,3,3,400
+77,CM,Paola Hernandez,3,3,400
+77,LB,Alejandra Bernabe,3,3,650
+77,LB,Alejandra Bernabe,3,3,350
+77,CB,Ana Tejada,2,2,700
+77,RW,Elena Julve,4,4,400
+77,LB,Nerea Nevado,3,2,400
+77,RB,Lundkvist,3,3,2.7K
+77,RB,Lundkvist,3,3,350
+77,LW,Macarena Portales,4,4,400
+77,CM,Estela Fernandez,3,3,400
+77,LW,Inma Gabarro,4,3,400
+77,LW,Payne,4,3,700
+77,CB,Maria Mendez,2,2,650
+77,GK,Enith Salon,1,2,400
+77,LW,Igor Paixao,4,4,400
+77,CAM,Baldanzi,3,3,1.9K
+77,CAM,Baldanzi,3,3,350
+77,LW,Moller,3,4,400
+77,CB,Brooks,2,3,1.3K
+77,ST,Cambot,3,3,400
+77,CAM,Garro,3,2,9.8K
+77,CB,Riehl,2,2,4.3K
+77,CDM,Roccaro,3,3,400
+77,CB,Nielsen,2,2,10K
+77,ST,Charley,3,3,400
+77,ST,Charley,3,3,350
+77,RB,Dydasco,3,3,1.5K
+77,CDM,Olofsson,3,3,400
+77,CDM,Viggiano,3,3,3K
+77,CDM,Viggiano,3,3,350
+77,ST,Thomas,3,3,400
+77,CM,Ederson,3,3,400
+77,CB,George,3,3,9.2K
+77,CB,George,3,3,350
+77,CDM,Howell,4,4,400
+77,RW,Louis,3,3,400
+77,LB,Belloumou,3,2,400
+77,CDM,Connolly,2,3,400
+77,CB,Steuerwald,2,2,400
+77,GK,Borggrafe,1,2,400
+77,CB,Stegemann,2,2,400
+77,CB,Buhler,2,2,700
+77,CM,Corley,3,2,400
+77,ST,Martinez,3,3,600
+77,ST,Martinez,3,3,350
+77,CB,Turanyi,2,3,400
+77,ST,Kogel,3,4,400
+77,GK,Repohl,1,2,400
+77,RM,Vilhjalmsdottir,3,3,400
+77,RM,Luiz Henrique,4,4,4.8K
+77,CAM,Guler,4,3,400
+77,LW,Babajide,4,4,5K
+77,LW,Babajide,4,4,950
+77,ST,Blomqvist,3,3,400
+77,CM,Angeldahl,3,3,400
+77,CM,Angeldahl,3,3,350
+77,RB,Vanderson,3,3,400
+77,GK,Hampton,1,3,400
+77,CB,Lukeba,2,2,700
+77,RW,Krumbiegel,3,4,1.1K
+77,RW,Krumbiegel,3,4,350
+77,CM,Dongus,3,4,700
+77,ST,Starke,3,3,400
+77,CAM,Kika Nazareth,4,4,400
+77,CAM,Kika Nazareth,4,4,350
+77,CM,Andreia Jacinto,3,3,400
+77,CB,Carole Costa,2,3,400
+77,CM,Fagioli,4,4,5K
+77,LM,Rodri,3,4,400
+77,LB,Udogie,3,3,700
+77,LB,Parisi,2,3,400
+77,CB,Thibaud,2,2,400
+77,LM,Akturkoglu,4,3,400
+77,RWB,Juranovic,2,4,400
+77,RB,Joao Mario,3,4,400
+77,CB,Theate,2,3,400
+77,CAM,Fabio Vieira,3,3,400
+77,CB,Thiaw,2,4,400
+77,ST,Adli,4,3,9.8K
+77,ST,Adli,4,3,400
+77,CB,Bade,2,3,400
+77,CM,Rovella,3,4,400
+77,ST,Moffi,2,3,400
+77,RW,Madueke,4,4,400
+77,CM,Irene Guerrero,3,3,8K
+77,CM,Irene Guerrero,3,3,350
+77,CB,Laia Aleixandri,2,4,400
+77,LM,Riquelme,3,3,400
+77,CB,Krejci,2,3,400
+77,CB,Krejci,2,3,350
+77,LM,Samuel Lino,3,3,400
+77,CB,Holes,2,4,400
+77,GK,Trubin,1,2,700
+77,CM,Kone,4,3,400
+77,CB,Johnson,2,3,400
+77,ST,Ueki,4,3,400
+77,RB,Thierry Correia,3,4,700
+77,CM,Nmecha,4,3,700
+77,LW,Solomon,4,4,400
+77,LW,Bryan Gil,3,3,400
+77,ST,Hlozek,3,4,400
+77,RM,Doku,4,3,700
+77,ST,Larroquette,4,4,350
+77,CM,Le Fee,4,3,400
+77,CAM,Elliott,4,4,400
+77,CB,Corsie,2,3,400
+77,CAM,Lindstrom,4,3,400
+77,ST,Furuhashi,3,4,700
+77,CM,Galli,3,3,400
+77,LM,Diop,4,3,9.5K
+77,LM,Diop,4,3,400
+77,RW,Trincao,4,2,400
+77,CDM,Hjulmand,3,3,400
+77,CM,Shaparenko,3,3,400
+77,GK,Luis Maximiano,1,2,400
+77,RM,De Frutos,4,4,400
+77,CB,Buongiorno,2,3,400
+77,CB,Rocio Galvez,2,3,400
+77,RM,Faivre,4,3,8.5K
+77,RM,Faivre,4,3,350
+77,CM,Jones,4,4,400
+77,CDM,Stephen Eustaquio,2,3,400
+77,CF,Barrow,3,4,10K
+77,CF,Barrow,3,4,400
+77,ST,Retegui,3,3,400
+77,ST,Nwakaeme,4,4,400
+77,ST,Nwakaeme,4,4,350
+77,CM,Gueye,2,3,400
+77,CDM,Skipp,2,3,400
+77,LB,Miranda,3,3,600
+77,LB,Miranda,3,3,350
+77,CB,Unai Nunez,2,2,400
+77,CB,Unai Nunez,2,2,400
+77,ST,Moukoko,4,4,400
+77,RM,Skov Olsen,4,4,400
+77,ST,Kalajdzic,3,3,400
+77,ST,Kalajdzic,3,3,350
+77,ST,Gomez,3,3,400
+77,ST,Gomez,3,3,350
+77,CB,Rodrigo Becao,2,2,400
+77,LM,Pedro Neto,4,4,400
+77,LM,Michael,4,3,700
+77,CB,Demiral,2,2,400
+77,CDM,Dominguez,3,5,700
+77,CB,Bueno,2,3,400
+77,CB,Bueno,2,3,10K
+77,RB,Munoz,2,3,400
+77,RB,Munoz,2,3,350
+77,RM,Kluivert,4,4,700
+77,CM,Lukic,3,3,400
+77,CM,Melendo,4,2,400
+77,GK,Pavlenka,1,3,400
+77,CAM,Gibbs-White,4,2,400
+77,CAM,Szymanski,3,3,400
+77,RW,Gabriel Strefezza,3,3,950
+77,RW,Gabriel Strefezza,3,3,350
+77,ST,Kouame,3,4,400
+77,LB,Konan,3,3,350
+77,LB,Konan,3,3,400
+77,GK,Diouf,1,3,400
+77,CDM,Munetsi,3,3,400
+77,RB,Kadioglu,4,4,800
+77,CB,Domingos Duarte,2,3,400
+77,LW,Wissa,3,3,400
+77,CB,Hubers,2,4,700
+77,LWB,Maehle,3,3,400
+77,RW,Ikone,4,3,400
+77,RB,Dodo,3,3,700
+77,GK,Turner,1,2,400
+77,CB,Itakura,3,4,700
+77,ST,Jovic,3,5,10K
+77,ST,Jovic,3,5,400
+77,LB,Tsimikas,3,3,400
+77,CB,Soyuncu,2,4,3.4K
+77,CB,Soyuncu,2,4,350
+77,CM,Grujic,3,3,400
+77,LW,Karlsson,5,3,400
+77,ST,Rafa Mir,3,3,400
+77,ST,Sadiq,3,3,400
+77,ST,Guruzeta,3,4,400
+77,ST,Awoniyi,3,2,400
+77,CB,Chalobah,3,3,400
+77,ST,Nmecha,3,4,400
+77,CB,Montes,2,3,10K
+77,CB,Montes,2,3,400
+77,CB,Bardakci,2,2,400
+77,LB,Ryerson,2,4,400
+77,CDM,Heynen,3,4,400
+77,ST,Garcia,4,3,700
+77,CB,Martinez Quarta,3,3,400
+77,LB,Brian Olivan,2,3,400
+77,ST,Leon,4,3,9.9K
+77,ST,Leon,4,3,350
+77,CAM,Lavogez,4,4,400
+77,CDM,Jaurena,3,3,2.5K
+77,RB,Mjelde,3,3,400
+77,CDM,Tousart,2,3,400
+77,ST,Sotoca,3,3,400
+77,CM,Vicky Losada,3,3,400
+77,CB,Kennedy,2,4,400
+77,CB,St. Juste,3,3,700
+77,ST,Janssen,3,4,400
+77,LM,Pablo Fornals,4,3,9.4K
+77,LM,Pablo Fornals,4,3,350
+77,CM,Andre Horta,3,3,400
+77,ST,Stengel,3,3,400
+77,CAM,Tymrak,3,3,700
+77,ST,Pere Milla,3,2,400
+77,CB,Niakhate,2,3,400
+77,CB,Niakhate,2,3,350
+77,CAM,Amiri,4,3,350
+77,CAM,Amiri,4,3,5.9K
+77,LM,Bamba,4,4,8K
+77,LM,Bamba,4,4,400
+77,CAM,Pineda,4,4,700
+77,GK,Schwabe,1,3,400
+77,ST,Weghorst,2,3,400
+77,ST,Weghorst,2,3,350
+77,RB,Posch,2,3,400
+77,LM,Cervi,4,3,400
+77,RB,Castagne,3,3,400
+77,CB,Adarabioyo,2,3,400
+77,CB,Adarabioyo,2,3,450
+77,ST,Boye,4,2,650
+77,ST,Boye,4,2,400
+77,CAM,Acosta,5,3,700
+77,CB,Elvedi,2,3,400
+77,ST,Calvert-Lewin,3,3,400
+77,CM,van de Beek,3,3,500
+77,CM,van de Beek,3,3,2K
+77,CB,Sanchez,2,2,400
+77,CB,Sanchez,2,2,8K
+77,CM,Billing,3,3,400
+77,LM,Gray,4,4,400
+77,CB,Mina,2,3,350
+77,CB,Mina,2,3,800
+77,CB,Lenglet,2,4,400
+77,CB,Lenglet,2,4,400
+77,LB,Diego Rico,2,2,400
+77,LB,Diego Rico,2,2,400
+77,ST,Rebic,3,4,400
+77,CM,Vecino,3,3,400
+77,CDM,Santamaria,3,2,400
+77,CB,Valjent,2,2,400
+77,CM,Escalante,3,3,400
+77,CB,Maripan,2,2,400
+77,CB,Djene,2,4,400
+77,LB,Sequeira,3,3,400
+77,ST,Paulinho,3,4,400
+77,ST,Bebou,4,3,700
+77,GK,Sportiello,1,2,400
+77,RB,Sabaly,3,3,400
+77,ST,Petagna,3,3,400
+77,ST,Petagna,3,3,400
+77,GK,Dragowski,1,2,700
+77,GK,Dragowski,1,2,750
+77,ST,Guirassy,3,3,400
+77,GK,Montipo,1,3,400
+77,CF,Correa,4,4,400
+77,CF,Correa,4,4,350
+77,CF,Miranchuk,3,2,350
+77,LB,Mojica,3,2,700
+77,LB,Mojica,3,2,700
+77,CDM,Lerma,3,4,400
+77,CB,Fabio Cardoso,2,2,400
+77,CM,Loftus-Cheek,4,3,400
+77,CB,Diego Llorente,2,3,400
+77,CB,Diego Llorente,2,3,1K
+77,CM,Gerhardt,3,3,400
+77,CDM,Kohr,3,3,700
+77,CM,Stanciu,4,4,10K
+77,CM,Stanciu,4,4,700
+77,CDM,Andre Gomes,4,4,400
+77,LM,Bruma,4,3,700
+77,CDM,Cataldi,3,4,400
+77,LB,Emerson,3,2,400
+77,CDM,Norgaard,3,3,400
+77,LM,Al Dawsari,4,5,700
+77,CAM,Quintero,4,3,700
+77,LM,Machis,4,4,700
+77,LM,Machis,4,4,700
+77,CAM,Andreas Pereira,4,4,400
+77,RB,Clinton Mata,3,3,400
+77,RW,Januzaj,4,4,400
+77,CB,Djimsiti,2,3,400
+77,CDM,Lucas Torro,2,3,400
+77,CM,Doucoure,3,3,400
+77,CB,Keane,2,3,400
+77,CM,Claesson,3,4,700
+77,CM,Paredes,4,4,400
+77,RWB,Weiser,4,4,400
+77,CM,Manu Trigueros,4,4,400
+77,CB,Abdelhamid,2,3,400
+77,CB,Abdelhamid,2,3,400
+77,CB,Abdelhamid,2,3,400
+77,CAM,Plea,4,3,400
+77,CDM,Ferri,3,2,400
+77,CB,Davies,3,3,400
+77,CF,Livaja,4,5,400
+77,LB,Juan Bernat,4,3,400
+77,LB,Juan Bernat,4,3,400
+77,ST,Ruidiaz,4,4,700
+77,ST,Batshuayi,4,5,400
+77,ST,Batshuayi,4,5,400
+77,GK,Blaswich,1,3,350
+77,GK,Blaswich,1,3,400
+77,CDM,Kramer,3,3,400
+77,RWB,Suarez,3,3,3.2K
+77,RB,Balliu,3,3,400
+77,CB,Knoche,2,4,400
+77,CF,Caprari,3,4,400
+77,CB,Dier,2,2,10K
+77,CB,Dier,2,2,400
+77,LW,Draxler,4,5,9.9K
+77,GK,Jordi Masip,1,4,700
+77,GK,Riemann,1,5,400
+77,CB,D'Ambrosio,3,3,400
+77,CM,Oxlade-Chamberlain,4,4,700
+77,RM,Redmond,4,3,400
+77,CB,Lejeune,2,3,400
+77,ST,Ducksch,3,3,400
+77,CB,Rakitskyi,3,3,400
+77,ST,Ings,3,3,400
+77,CB,Dawson,2,2,400
+77,GK,Gikiewicz,1,2,400
+77,GK,Gikiewicz,1,2,350
+77,CDM,Gueye,3,3,400
+77,ST,Braithwaite,4,4,400
+77,RWB,Trimmel,3,3,400
+77,LWB,Jaume Costa,3,3,400
+77,CB,Blind,3,3,400
+77,CM,Illarramendi,3,3,400
+77,GK,Skorupski,1,2,400
+77,LB,Cresswell,3,3,400
+77,ST,Budimir,3,4,400
+77,ST,Stuani,4,3,400
+77,LM,Borini,3,3,400
+77,ST,Ighalo,4,4,400
+77,LM,Willian,4,4,400
+77,ST,Hernandez,3,3,10K
+77,CB,Marcano,2,3,400
+77,ST,Raul Garcia,3,3,400
+77,CM,Cazorla,4,5,400
+77,CM,Milner,3,4,400
+77,GK,Pepe Reina,1,3,400
+76,CM,Noordam,3,3,400
+76,CB,de Sanders,2,2,400
+76,CDM,Pauleta,3,3,400
+76,ST,Nycole Raysla,3,2,400
+76,LB,Khyrova,3,3,400
+76,CB,Bartovicova,2,3,400
+76,LM,Garcia,4,3,400
+76,CDM,Joao Gomes,3,3,400
+76,ST,Humm,3,3,400
+76,LW,Caicedo,4,4,400
+76,CDM,Danilo,2,3,400
+76,RW,Hickelsberger,3,3,400
+76,CB,Patri Ojeda,2,3,400
+76,CDM,Sandra Castello,3,3,400
+76,LB,Pisco,3,3,400
+76,CDM,Natalia Ramos,3,3,700
+76,GK,Olatz Santana,1,2,400
+76,RB,Nerea,4,3,400
+76,CAM,Clara Pinedo,3,3,400
+76,ST,Anita Marcos,3,4,700
+76,GK,Tarazona,1,2,400
+76,RM,Ane Azkona,4,3,700
+76,CAM,Hess,3,3,400
+76,CM,Cin,4,3,400
+76,CB,Henriksen,2,2,3K
+76,CB,Furst,3,2,400
+76,CB,Furst,3,2,350
+76,CB,Flach,2,2,350
+76,CB,Flach,2,2,400
+76,CB,Gevitz,2,3,5.4K
+76,CB,Kowalski,2,2,2.2K
+76,LM,Traore,3,3,400
+76,RM,Turnbow,3,3,3.9K
+76,CM,Briede,3,3,350
+76,CM,Briede,3,3,2.1K
+76,RB,Spencer,3,3,700
+76,CB,Gorden,2,2,700
+76,GK,Betos,1,2,400
+76,LM,Kizer,3,4,3.8K
+76,LM,Kizer,3,4,350
+76,CDM,Dougherty Howard,3,3,350
+76,CDM,Dougherty Howard,3,3,1K
+76,CAM,Feist,3,3,2K
+76,CAM,Feist,3,3,350
+76,RB,Biegalski,3,3,350
+76,RB,Biegalski,3,3,4.7K
+76,GK,Rowland,1,2,4K
+76,CB,Menges,2,2,450
+76,CB,Hiatt,2,2,350
+76,CB,Hiatt,2,2,400
+76,CM,Boureille,3,3,400
+76,CB,Gatti,2,3,400
+76,CM,Summanen,3,3,400
+76,CAM,Balcer,3,3,400
+76,RM,Rabanne,3,4,400
+76,LB,Louis,3,2,700
+76,CB,Mpome,2,3,400
+76,LW,Lacasse,3,5,400
+76,CB,Evans,2,3,400
+76,CB,Turner,2,3,400
+76,LM,Petzelberger,3,3,450
+76,CB,Fisk,2,3,400
+76,ST,Thomas,3,3,8.4K
+76,ST,Thomas,3,3,350
+76,ST,Ivana Fuso,4,3,10K
+76,CM,Percival,4,3,400
+76,ST,Williams,3,3,400
+76,ST,Naz,3,4,400
+76,GK,Spencer,1,2,400
+76,CM,Pfluger,3,2,400
+76,CB,Ostermeier,2,3,400
+76,CB,Ostermeier,2,2,400
+76,CB,Meisner,2,2,400
+76,CM,Harsch,3,2,400
+76,CB,Degen,2,2,400
+76,ST,Wolter,3,3,400
+76,RB,Laplacette,2,3,400
+76,RB,Matysik,2,3,400
+76,RB,Matysik,2,3,350
+76,CM,Wirtz,3,3,400
+76,CAM,Khelifi,4,2,400
+76,RM,Bizet,4,3,400
+76,LB,Revelli,3,4,400
+76,RB,Casparij,3,4,400
+76,RW,Barcola,3,3,4K
+76,RW,Barcola,3,3,400
+76,LM,Rahimi,4,4,700
+76,CAM,Bennison,4,3,400
+76,CAM,Bennison,4,3,350
+76,ST,Vitinha,3,3,350
+76,ST,Vitinha,3,3,2.5K
+76,CDM,Anna Torroda,3,3,400
+76,RM,Zalewski,3,4,400
+76,CM,Vanhaevermaet,3,4,400
+76,CDM,Varela,3,3,400
+76,GK,De Arruabarrena,1,2,400
+76,ST,Hojlund,3,3,400
+76,RB,Gusto,3,3,400
+76,CM,Ilic,3,3,400
+76,CM,Seiwald,2,3,400
+76,ST,Kuchta,3,3,400
+76,CM,Alex Baena,3,4,400
+76,CDM,Onana,3,4,400
+76,CB,Omari,2,3,400
+76,LB,Truffert,2,3,400
+76,CM,Ounahi,3,3,400
+76,CDM,Nico Gonzalez,3,3,400
+76,CM,Dorley,4,3,400
+76,CDM,Ricci,3,3,400
+76,ST,Kalimuendo,3,3,400
+76,RB,Wilms,2,3,400
+76,CB,Szalai,2,3,400
+76,CB,Szalai,2,3,400
+76,CM,Boudaoui,3,3,400
+76,CAM,Ivanusec,4,3,400
+76,RWB,Singo,2,2,400
+76,CM,Zerrouki,3,3,400
+76,CB,Tiago Djalo,2,3,700
+76,CB,Tiago Djalo,2,3,8.5K
+76,CM,Pobega,3,4,700
+76,ST,Brobbey,3,4,400
+76,RB,Dest,4,4,400
+76,CB,David Carmo,2,2,400
+76,LB,Nuno Tavares,3,4,700
+76,LB,Nuno Tavares,3,4,700
+76,LB,Sanusi,2,2,700
+76,CAM,De Ketelaere,4,3,400
+76,RW,Johnson,3,4,10K
+76,RW,Johnson,3,4,400
+76,RB,Hickey,2,5,400
+76,CAM,Fowler,3,5,400
+76,CDM,Wieffer,3,3,400
+76,CB,Collins,2,3,400
+76,LW,Weerden,4,3,400
+76,RM,Tete,4,3,400
+76,CB,Tuta,2,2,400
+76,CM,Sevcik,3,4,700
+76,CDM,Kral,3,3,400
+76,CB,Kossounou,2,3,700
+76,GK,Alvaro Valles,1,2,400
+76,RB,Meffometou,3,4,400
+76,LW,Sottil,4,3,400
+76,ST,Beltran,3,3,400
+76,LB,Adria Pedrosa,3,3,700
+76,CB,Saez,2,3,400
+76,CB,Beattie,2,3,10K
+76,CM,Baba,2,4,400
+76,CM,Baba,2,4,450
+76,CB,Kilman,2,4,400
+76,CB,Kilman,2,4,400
+76,CM,Barreiro Martins,3,3,400
+76,CM,Barreiro Martins,3,3,350
+76,RB,Teze,2,3,400
+76,CB,Salisu,2,3,400
+76,LM,Puado,4,4,700
+76,CM,Buyalskyi,3,4,400
+76,CB,Perez,2,3,400
+76,CB,Lacroix,2,2,700
+76,CAM,Pelova,4,4,400
+76,CM,Chiquinho,4,3,3.7K
+76,GK,Bayindir,1,2,350
+76,CDM,Oscar Valentin,2,3,400
+76,CAM,Nadim,3,3,8.7K
+76,RM,Emslie,4,4,400
+76,LM,McNeil,3,2,400
+76,RB,McCutcheon,3,3,400
+76,RB,Sugawara,3,3,400
+76,CB,Balerdi,2,3,400
+76,CB,Bornauw,2,3,400
+76,ST,Okafor,4,4,700
+76,CB,Solet,2,4,700
+76,LM,Rossi,3,3,400
+76,RB,Aitor Ruibal,3,3,400
+76,CB,Igor,2,2,400
+76,ST,Wind,3,3,400
+76,CAM,Damsgaard,4,3,400
+76,ST,Ferreira,2,4,400
+76,RB,Gorosabel,2,2,400
+76,LB,Mitchell,2,3,400
+76,RM,Ljubicic,3,3,400
+76,LM,Traore,3,3,400
+76,LM,Traore,3,3,700
+76,RM,Ojeda,3,4,400
+76,RM,Carles Perez,4,2,400
+76,CAM,Gomes,4,4,400
+76,CB,Niakate,2,3,400
+76,CB,Niakate,2,3,400
+76,CB,Alderete,2,3,400
+76,ST,Nsame,3,4,400
+76,ST,Nsame,3,4,350
+76,LM,Boupendza,4,3,700
+76,LB,Wagner,3,3,400
+76,CDM,Matusiwa,3,3,400
+76,CDM,Matusiwa,3,3,350
+76,ST,Abel Ruiz,4,3,400
+76,ST,Abel Ruiz,4,3,350
+76,CM,McKennie,3,3,400
+76,RB,Nacho Vidal,3,3,400
+76,RB,Nacho Vidal,3,3,550
+76,CAM,Gazdag,3,2,400
+76,CB,Eric Curbelo,2,5,2.2K
+76,CM,Dewsbury-Hall,3,3,450
+76,CM,Dewsbury-Hall,3,3,400
+76,LW,Davidson,4,3,3K
+76,LW,Davidson,4,3,350
+76,ST,Cucho Hernandez,3,4,700
+76,RB,Krueger,3,3,4.7K
+76,RB,Krueger,3,3,350
+76,LWB,Caci,3,5,400
+76,LB,Wijndal,3,2,400
+76,LB,Wijndal,3,2,400
+76,CB,Koch,2,4,400
+76,CB,Senesi,3,4,400
+76,CM,Marin,4,4,400
+76,CM,Marin,4,4,350
+76,GK,D'Angelo,1,3,2K
+76,RM,Sarr,4,2,700
+76,CB,Nicolaisen,2,3,400
+76,CDM,Janelt,3,3,400
+76,CB,Faes,2,3,400
+76,RM,Fassnacht,3,3,400
+76,CAM,Aouar,4,3,450
+76,ST,Toni Martinez,3,3,400
+76,CB,Luan Peres,2,2,400
+76,RB,Rosier,3,2,3.4K
+76,RB,Rosier,3,2,2.3K
+76,RB,Rosier,3,2,700
+76,CF,Brekalo,4,4,400
+76,CF,Brekalo,4,4,450
+76,CB,Diogo Leite,2,3,400
+76,RM,Sallai,4,4,400
+76,CM,Mangala,3,3,2.4K
+76,CM,Mangala,3,3,350
+76,CM,Herrera,3,3,400
+76,RB,Odriozola,3,3,8K
+76,RB,Odriozola,3,3,400
+76,CB,Comert,2,4,350
+76,CB,Comert,2,4,400
+76,CDM,Laidouni,3,2,400
+76,ST,Cuypers,3,4,350
+76,ST,Cuypers,3,4,950
+76,LW,Maria Jose,4,4,400
+76,CB,Thorisdottir,2,4,350
+76,GK,Nakamura,1,3,400
+76,LM,Harit,5,3,400
+76,LM,Harrison,4,3,400
+76,CB,Wober,2,3,400
+76,CB,Wober,2,3,350
+76,LB,Justin,3,4,400
+76,CDM,Dorsch,3,3,400
+76,CB,Diakhaby,2,3,400
+76,LM,Gacinovic,4,3,400
+76,CM,Serdar,4,3,400
+76,CM,Lees-Melou,3,4,400
+76,CM,Jensen,3,4,400
+76,CB,Matviienko,2,3,400
+76,LB,Robinson,3,3,700
+76,RM,Rashica,4,4,700
+76,ST,Onisiwo,3,3,400
+76,CM,Svanberg,3,3,400
+76,CM,Promel,3,4,400
+76,CAM,Le Bihan,3,3,6.9K
+76,CDM,Grillitsch,3,3,400
+76,CB,Holding,2,3,10K
+76,CB,Holding,2,3,400
+76,CB,Laporte,2,3,400
+76,CB,Carter-Vickers,2,3,700
+76,CDM,Cullen,3,3,400
+76,RB,Walker-Peters,3,4,400
+76,CDM,Spierings,3,3,400
+76,CDM,Spierings,3,3,350
+76,LW,Haraslin,4,4,400
+76,RB,Maier,3,4,400
+76,ST,Duggan,4,3,400
+76,RWB,Guilbert,3,3,400
+76,GK,Batalla,1,3,350
+76,RB,Wik,3,3,400
+76,LW,Fulgini,4,4,400
+76,LM,Daniel Podence,4,4,400
+76,LM,Hwang Hee Chan,4,4,400
+76,GK,Barnhart,1,2,700
+76,CB,Kehrer,2,5,5K
+76,CB,Kehrer,2,5,350
+76,LW,Trezeguet,4,4,400
+76,CB,Boscagli,3,4,400
+76,LW,Mavididi,3,3,400
+76,ST,Iheanacho,4,3,400
+76,CB,Bailly,3,3,10K
+76,CB,Bailly,3,3,3.5K
+76,CB,Bailly,3,3,350
+76,CM,Mandragora,3,3,400
+76,CB,Caleta-Car,2,3,450
+76,CB,Caleta-Car,2,3,400
+76,GK,Milinkovic-Savic,1,3,700
+76,LW,Kent,4,5,700
+76,RWB,Celik,3,3,400
+76,LM,Fabio Martins,4,3,400
+76,GK,Zentner,1,3,400
+76,LW,Toko Ekambi,3,4,500
+76,LW,Toko Ekambi,3,4,350
+76,GK,Nubel,1,5,400
+76,RB,Aguilar,3,2,400
+76,GK,Stanek,1,2,950
+76,GK,Stanek,1,2,350
+76,GK,Dibusz,1,3,400
+76,CB,Ingason,2,3,400
+76,ST,Borre,3,3,10K
+76,ST,Borre,3,3,4.4K
+76,RM,Honorat,4,3,400
+76,LWB,Machado,2,3,400
+76,RW,Zivkovic,4,3,400
+76,CM,Romero,4,3,1K
+76,LM,Embarba,4,4,400
+76,RW,Carlos Junior,3,3,400
+76,LB,Meling,3,3,400
+76,LB,Targett,3,2,400
+76,GK,Noppert,1,3,700
+76,ST,Arango,3,3,400
+76,RW,Cerny,3,3,400
+76,LB,Wendell,4,2,400
+76,LB,Danilo,3,3,400
+76,RB,Tete,2,2,400
+76,CM,Dani Garcia,3,3,400
+76,RWB,Widmer,3,3,400
+76,LM,Cornet,3,4,400
+76,GK,Herrera,1,2,2K
+76,RW,Traore,4,2,700
+76,GK,Helton Leite,1,2,400
+76,RM,Iwobi,4,3,10K
+76,RM,Iwobi,4,3,400
+76,ST,Akpom,3,3,400
+76,CM,Tait,3,3,1.9K
+76,CM,Tait,3,3,350
+76,CDM,Abergel,3,3,400
+76,LB,Augustinsson,3,2,400
+76,LB,Augustinsson,3,2,350
+76,CB,Zimmerman,2,3,400
+76,LB,Masuaku,4,2,400
+76,CM,Medran,3,5,400
+76,CM,Medran,3,5,350
+76,CB,Djiku,2,3,400
+76,CB,Mechele,2,4,400
+76,LM,Lazovic,3,4,400
+76,CDM,Khedira,2,3,400
+76,ST,Dembele,3,3,400
+76,GK,Gollini,1,2,400
+76,GK,Gollini,1,2,350
+76,CAM,Maxim,5,4,400
+76,CM,Sanson,4,4,400
+76,LB,Hysaj,3,3,400
+76,CM,Nielsen,3,3,400
+76,GK,Falcone,1,2,700
+76,CB,Halstenberg,3,3,400
+76,RB,Mbabu,3,3,700
+76,RB,Mbabu,3,3,700
+76,RM,Steffen,3,3,700
+76,LB,Jonny,3,3,400
+76,LB,Jonny,3,3,1.4K
+76,GK,Brignoli,1,3,400
+76,GK,Brignoli,1,3,350
+76,LM,Goodwin,3,3,400
+76,CF,Gauld,4,3,400
+76,CDM,Gastien,2,3,400
+76,CM,Bakasetas,3,4,1K
+76,CM,Bakasetas,3,4,400
+76,CAM,Mantalos,3,4,400
+76,CDM,Willian Arao,3,3,400
+76,ST,Poulsen,3,3,400
+76,CAM,Vazquez,4,3,400
+76,CB,Pablo Mari,2,3,400
+76,RM,Stevanovic,3,4,400
+76,CB,Patric,2,3,400
+76,RW,Murphy,3,4,400
+76,GK,Johnstone,1,3,650
+76,RB,De Sciglio,3,4,400
+76,CDM,Reed,3,3,400
+76,CM,Joao Paulo,3,3,400
+76,LB,Alberto Moreno,3,2,400
+76,CM,Ruiz de Galarreta,3,3,400
+76,CM,Fajr,3,4,400
+76,ST,Jimenez,3,4,400
+76,GK,Dupe,1,3,1.5K
+76,GK,Dupe,1,3,400
+76,CM,Mesa,3,3,400
+76,CB,Brooks,2,3,400
+76,RM,De Cordova-Reid,3,3,400
+76,CM,Klaassen,3,3,10K
+76,CM,Klaassen,3,3,350
+76,CB,Boly,2,4,400
+76,LWB,Roussillon,3,2,400
+76,RB,Meunier,3,4,9.9K
+76,RB,Meunier,3,4,400
+76,CB,Coady,2,3,400
+76,LWB,Haidara,3,3,400
+76,CB,Mandi,2,3,400
+76,LM,Saponara,4,4,1.5K
+76,LM,Saponara,4,4,400
+76,CDM,Schlupp,3,2,700
+76,GK,Lecomte,1,3,400
+76,LW,Cristian Tello,4,4,400
+76,GK,Bizot,1,2,400
+76,CM,Ozdoev,3,4,400
+76,CDM,Hofler,2,3,400
+76,ST,Bakambu,3,3,2.8K
+76,ST,Bakambu,3,3,400
+76,RB,Svensson,3,3,750
+76,RB,Svensson,3,3,400
+76,CAM,Lodeiro,4,3,10K
+76,RWB,Faraoni,3,4,400
+76,RWB,Faraoni,3,4,400
+76,ST,Willian Jose,4,4,400
+76,CB,Pezzella,2,3,400
+76,GK,Paulo Victor,1,2,400
+76,CB,Vogt,2,3,10K
+76,CB,Vogt,2,3,400
+76,LW,Ai Kesen,4,4,700
+76,CM,Rits,3,5,700
+76,GK,Hitz,1,3,400
+76,CDM,Ruben Perez,2,3,400
+76,ST,Zuber,3,4,400
+76,CB,Aridane,2,3,400
+76,GK,Burki,1,2,400
+76,ST,Caputo,3,4,400
+76,CDM,Nzonzi,2,3,400
+76,LB,van Aanholt,3,3,400
+76,LB,van Aanholt,3,3,400
+76,ST,Welbeck,3,3,400
+76,CB,Ogbonna,2,3,650
+76,CF,Kruse,4,4,4.3K
+76,RM,Amrabat,3,2,400
+76,CAM,Lallana,4,5,400
+76,CAM,Lallana,4,5,400
+76,ST,Gameiro,3,4,400
+76,RB,Wass,3,3,400
+76,GK,Forster,1,5,650
+76,CDM,Guardado,3,2,2.4K
+76,LB,Young,4,3,400
+75,ST,Krstovic,2,4,350
+75,CM,Owusu,3,3,350
+75,CM,Sabajo,3,3,450
+75,LM,Larsson,3,3,350
+75,GK,Romero,1,3,350
+75,ST,Kozarova,3,3,9.4K
+75,GK,Lukasova,1,3,350
+75,CM,Albert,3,3,350
+75,ST,Orban,2,3,4K
+75,ST,Orban,2,3,350
+75,CB,Thais Ferreira,2,2,350
+75,CAM,Piubel,3,3,350
+75,ST,Maier,3,3,350
+75,LB,Carrasco,3,3,750
+75,GK,Noelia Ramos,1,2,350
+75,RW,Cecilia Marcos,3,3,350
+75,LM,Jone Amezaga,4,4,350
+75,CDM,Mariana Cerro,2,3,350
+75,CB,Bibi,2,3,3.8K
+75,CB,Bibi,2,3,350
+75,CAM,Fiamma Benitez,4,3,350
+75,CAM,Fiamma Benitez,4,3,950
+75,RB,Real,2,3,350
+75,LB,Rosa Otermin,3,4,350
+75,LW,Ana Franco,3,4,700
+75,CM,Silvia Lloris,3,2,450
+75,CM,Silvia Lloris,3,2,350
+75,CAM,Erika Gonzalez,3,3,350
+75,RM,Halverkamps,3,4,350
+75,RW,Bouziane,3,2,500
+75,LM,Lazaro,4,3,2.9K
+75,LB,Nuria Rabano,3,3,350
+75,LB,Veje,2,3,400
+75,RB,Kouache,2,3,350
+75,CB,Diomande,2,4,350
+75,LM,Kett,3,4,350
+75,GK,Lerond,1,2,350
+75,ST,Ali Nadjim,3,3,350
+75,CB,Davis,2,3,400
+75,ST,Veliz,3,3,350
+75,ST,Veliz,3,3,450
+75,RB,Lucia Rodriguez,3,3,350
+75,CB,Reid,2,2,350
+75,CM,Miretti,3,4,350
+75,CB,Baschirotto,2,3,2.3K
+75,LW,Alejandro Garnacho,3,4,350
+75,LW,Fontaine,3,2,350
+75,ST,Melissa Gomes,3,4,350
+75,CDM,Le Mouel,3,3,350
+75,CDM,Van der Jagt,3,3,350
+75,LB,Aguilera,2,3,2.6K
+75,LB,Aguilera,2,3,10K
+75,RM,Lussi,3,3,350
+75,LW,Monaghan,3,3,350
+75,GK,Nelson,1,2,3.5K
+75,ST,Hamilton,3,4,350
+75,RB,Del Fava,3,3,5K
+75,RB,Milliet,3,4,350
+75,CB,Montefusco,2,3,350
+75,RM,St-Georges,3,3,2.4K
+75,RM,St-Georges,3,3,350
+75,CB,Sharples,2,2,8.1K
+75,GK,Miller,1,2,2.9K
+75,GK,Miller,1,2,350
+75,RB,Bailey,3,3,350
+75,RB,Williams,2,3,350
+75,CDM,Pinto,3,4,650
+75,CB,Kurtz,2,3,350
+75,LB,Pogarch,3,3,6.1K
+75,CB,Nally,2,3,350
+75,GK,Hogan,1,2,350
+75,CAM,Angelina,4,4,2.2K
+75,CAM,Angelina,4,4,350
+75,CM,Holland,3,3,350
+75,CB,Jezequel,2,3,350
+75,RB,Goetsch,2,3,350
+75,CDM,Declercq,3,3,350
+75,CDM,Fercocq,2,3,500
+75,RM,Cardia,4,3,350
+75,RB,Fernandes,2,3,350
+75,ST,Jutgla,3,3,350
+75,CB,Saul Coco,2,3,2.3K
+75,RW,Bakayoko,3,3,350
+75,RW,Sorensen,3,3,5.9K
+75,CDM,Stringer,3,3,8.3K
+75,CAM,Whelan,3,3,1K
+75,CAM,Boe Risa,3,3,3.5K
+75,CAM,Boe Risa,3,3,350
+75,ST,Ayane,3,4,350
+75,LM,Sarri,3,4,400
+75,CB,Scalvini,2,3,350
+75,LM,Luhrsen,3,4,350
+75,LM,Luhrsen,3,4,350
+75,CB,Ulbrich,2,3,350
+75,CDM,Hausicke,3,2,350
+75,CB,Sombath,2,3,350
+75,ST,Cerci,4,4,450
+75,ST,Cerci,4,4,350
+75,CB,Barth,2,3,350
+75,LB,Steinert,2,2,400
+75,CB,Kirchberger,2,3,1.8K
+75,GK,Holmgren,1,3,350
+75,RB,Le Guilly,2,3,350
+75,CAM,Baijings,3,4,400
+75,CAM,Baijings,3,4,350
+75,RW,Eva Navarro,4,5,350
+75,RW,Eva Navarro,4,5,650
+75,LM,Moleiro,3,3,350
+75,CB,Filipe Relvas,2,2,350
+75,GK,Andrew,1,2,350
+75,CB,Copete,2,2,350
+75,CDM,Souza,2,3,350
+75,CM,Zorgane,3,5,350
+75,CDM,Cooney-Cross,3,3,350
+75,CM,Miguel Crespo,3,3,350
+75,CM,Miguel Crespo,3,3,400
+75,CB,Diana Gomes,2,3,350
+75,CM,Andreia Norton,4,3,350
+75,RB,Cayman,3,4,350
+75,LB,Kerkez,3,3,350
+75,CB,Hien,2,3,850
+75,CB,Hien,2,3,350
+75,ST,Sesko,3,3,350
+75,CAM,Sudakov,3,5,350
+75,RM,Gabriel Veron,4,3,6.8K
+75,CB,Victor Chust,2,5,350
+75,CB,Kullberg,2,4,400
+75,RB,Rensch,3,5,350
+75,CB,Agbadou,2,3,350
+75,GK,Verbruggen,1,3,350
+75,GK,Grbic,1,3,8K
+75,GK,Grbic,1,3,350
+75,LW,Lingr,3,3,350
+75,CDM,Jakic,2,3,1K
+75,CDM,Jakic,2,3,350
+75,RM,Knauff,3,3,350
+75,LB,Smal,2,3,350
+75,LB,Smal,2,3,350
+75,ST,Ekitike,3,3,350
+75,ST,Ekitike,3,3,3.7K
+75,CM,Stach,2,5,10K
+75,CM,Stach,2,5,700
+75,ST,Marmoush,4,3,350
+75,CAM,Farias,4,3,700
+75,ST,Broja,3,3,350
+75,ST,Broja,3,3,500
+75,RB,Johnston,2,2,700
+75,CB,Cascarino,2,2,350
+75,CB,Morato,2,2,350
+75,LWB,Doig,3,4,350
+75,LWB,Doig,3,4,350
+75,CB,Ndayishimiye,2,3,350
+75,CDM,Villagra,2,3,400
+75,CAM,Bondarenko,3,2,350
+75,CM,Taylor,3,5,350
+75,CB,Pavlovic,2,3,350
+75,CM,Matheus Henrique,3,4,500
+75,LM,Flips,3,3,350
+75,LM,Flips,3,3,350
+75,LW,Kaminski,3,3,350
+75,LM,Velasco,4,4,350
+75,RM,Rollheiser,3,2,350
+75,ST,Dallinga,2,4,2.7K
+75,RWB,van Ewijk,3,2,700
+75,CAM,Cherki,5,5,350
+75,ST,Weissman,3,4,350
+75,ST,Weissman,3,4,400
+75,CDM,Kalvach,2,3,350
+75,LB,Iago,3,2,450
+75,RB,Stanisic,2,4,1.8K
+75,RB,Stanisic,2,4,350
+75,ST,Sergio Camello,4,4,350
+75,RM,Dina Ebimbe,3,3,350
+75,RW,Aboukhlal,4,5,700
+75,ST,Huitema,4,3,350
+75,ST,Cvancara,2,3,350
+75,LW,Kgatlana,4,3,7.7K
+75,CM,Motlhalo,4,3,1.1K
+75,CM,Motlhalo,4,3,350
+75,ST,Koita,3,4,2K
+75,RB,Diakite,2,3,450
+75,CB,Barroso,2,3,350
+75,CDM,Hugo Guillamon,2,4,350
+75,LW,Mudryk,4,4,350
+75,LM,Ivan Jaime,3,3,350
+75,RM,De la Vega,4,3,1.9K
+75,RM,De la Vega,4,3,350
+75,LB,Lauder,3,3,350
+75,LB,Smith,3,3,350
+75,CB,Howard,2,3,350
+75,CDM,Miura,3,3,350
+75,GK,Paulo Vitor,1,3,350
+75,RW,Traore,3,2,350
+75,CB,Kumbulla,2,3,350
+75,CB,Kumbulla,2,3,400
+75,CB,Javi Sanchez,2,4,350
+75,ST,Suarez,3,4,350
+75,CB,Eric Garcia,2,3,350
+75,CB,Eric Garcia,2,3,350
+75,CDM,Hrosovsky,3,3,350
+75,ST,Vinicius,3,3,350
+75,ST,Vinicius,3,3,400
+75,GK,Kolar,1,3,350
+75,LM,Bulter,3,3,350
+75,GK,Bushchan,1,3,350
+75,LB,Mykolenko,2,2,350
+75,CM,Racic,3,4,350
+75,CB,Bijol,2,3,350
+75,ST,Undav,3,5,700
+75,ST,Undav,3,5,350
+75,CAM,Kyereh,5,3,450
+75,CF,Radonjic,3,4,350
+75,CM,Loiodice,3,3,350
+75,LW,Gordon,3,3,350
+75,LM,Nakamura,4,3,350
+75,GK,Vandevoordt,1,3,850
+75,GK,Vandevoordt,1,3,350
+75,CM,Riqui Puig,3,3,350
+75,CB,Beyer,2,3,350
+75,GK,Meslier,1,3,350
+75,LB,Ait-Nouri,3,3,8.4K
+75,LB,Ait-Nouri,3,3,350
+75,CB,Ogbu,2,2,700
+75,RB,Lamptey,2,3,350
+75,CB,El Yamiq,2,3,700
+75,ST,Gyokeres,3,3,350
+75,LB,Eunate,3,3,400
+75,RB,Mauro Junior,4,3,350
+75,RW,Kaneryd,3,3,350
+75,ST,Daka,3,3,350
+75,RM,Paintsil,3,3,750
+75,RM,Paintsil,3,3,700
+75,RB,Tenaglia,3,3,350
+75,LW,Hudson-Odoi,4,3,350
+75,CM,O'Riley,4,3,350
+75,CB,Kabak,2,3,350
+75,CDM,Soumare,3,3,350
+75,CDM,Soumare,3,3,350
+75,CM,Raskin,3,4,350
+75,CM,Raskin,3,4,350
+75,RM,Zhegrova,4,2,350
+75,CAM,de Wit,3,3,2.8K
+75,CAM,de Wit,3,3,350
+75,CB,Chabot,2,2,350
+75,CB,Chabot,2,2,450
+75,CM,Oscar,3,3,350
+75,CM,Oscar,3,3,350
+75,ST,Dennis,4,3,350
+75,ST,Dennis,4,3,350
+75,ST,Dennis,4,3,350
+75,LM,Demirovic,3,3,350
+75,RM,Diatta,4,4,700
+75,ST,Marcao,3,4,3K
+75,ST,Marcao,3,4,350
+75,ST,Marcao,3,4,500
+75,CM,Lowen,3,4,350
+75,RM,Richter,4,4,350
+75,LM,Ejuke,4,3,1.3K
+75,LM,Ejuke,4,3,700
+75,ST,Mama Balde,3,3,350
+75,RM,Maier,3,3,350
+75,CAM,Mihailovic,4,4,5K
+75,CAM,Mihailovic,4,4,350
+75,LM,Tavernier,3,3,350
+75,CDM,Bare,3,3,400
+75,ST,Nketiah,3,3,350
+75,CB,Ngadeu,2,5,350
+75,CM,Claude-Maurice,4,3,350
+75,ST,Mateta,3,4,350
+75,CM,Maggiore,3,3,350
+75,LWB,Aaron,3,3,350
+75,CDM,Marc Roca,3,3,350
+75,LB,Sessegnon,4,3,850
+75,GK,Aline Reis,1,3,9K
+75,CDM,Yates,2,3,350
+75,CDM,Geiger,3,3,400
+75,CM,Bellegarde,3,3,350
+75,CDM,Samassekou,3,3,350
+75,CDM,Samassekou,3,3,400
+75,CDM,Schouten,4,3,350
+75,CDM,Rosario,3,3,350
+75,GK,Caro,1,3,350
+75,GK,Steffen,1,3,3K
+75,GK,Steffen,1,3,350
+75,CM,Hamer,3,3,350
+75,RB,Lotomba,2,4,400
+75,RM,Aurelio Buta,4,4,350
+75,CM,Evander,4,4,350
+75,CM,Rygaard,3,3,350
+75,CB,Ito,2,3,1.4K
+75,CB,Ito,2,3,700
+75,CDM,El Mahdioui,3,4,350
+75,CB,Leo Duarte,2,2,350
+75,ST,Edouard,4,4,350
+75,CAM,Lincoln,4,3,5.9K
+75,CAM,Lincoln,4,3,5.9K
+75,CF,Tissoudali,4,3,350
+75,CM,Zajc,3,3,350
+75,RWB,Kristensen,3,4,350
+75,RWB,Kristensen,3,4,350
+75,GK,Muric,1,2,1.3K
+75,CDM,Hadziahmetovic,2,3,350
+75,CB,Uduokhai,2,3,350
+75,CB,Joaquin,2,3,450
+75,RM,James,3,4,700
+75,CAM,Joni Montiel,3,2,950
+75,CAM,Joni Montiel,3,2,350
+75,CAM,Joni Montiel,3,2,350
+75,LW,Aitor,3,3,350
+75,LB,Perraud,3,2,400
+75,LB,Perraud,3,2,350
+75,CM,Nandez,3,2,3.6K
+75,RB,Sacko,3,3,700
+75,CAM,Edu Exposito,3,5,350
+75,CM,Ruben Alcaraz,3,4,350
+75,CB,Fali,2,3,350
+75,CB,Anton,3,3,450
+75,CAM,Amallah,3,3,500
+75,CAM,Amallah,3,3,350
+75,CB,Raillo,2,3,350
+75,CB,Moukoudi,2,3,350
+75,RB,Kevin,3,3,350
+75,ST,Dolberg,3,4,350
+75,GK,Sullastres,1,3,700
+75,RB,Huster,3,3,8K
+75,CB,Hanche-Olsen,2,3,350
+75,GK,Grabara,1,3,350
+75,GK,Grabara,1,3,350
+75,CM,Berge,3,3,350
+75,CB,Wensing,2,3,400
+75,RB,Celia Jimenez,3,3,750
+75,CDM,Virginia Torrecilla,3,3,6.8K
+75,ST,Piemonte,3,3,350
+75,RM,Gelson Martins,4,3,4.8K
+75,RM,Roldan,3,4,350
+75,CAM,Malcorra,3,4,1.5K
+75,ST,Larin,3,4,350
+75,LB,Ruben Duarte,3,2,400
+75,CB,Andrei Girotto,2,3,350
+75,LB,Taylor,3,3,350
+75,ST,Avalos,3,4,700
+75,CDM,Eggestein,3,4,350
+75,ST,Adams,3,3,350
+75,CB,Godfrey,2,3,5K
+75,CB,Godfrey,2,3,700
+75,CAM,Cantwell,4,3,350
+75,ST,Cesinha,5,5,700
+75,ST,Solanke,3,3,350
+75,RW,Kahveci,3,3,350
+75,RM,Kike Barja,3,3,350
+75,RB,Roberts,3,4,350
+75,RB,Roberts,3,4,450
+75,LB,Guilherme Sitya,3,3,350
+75,LW,Pellegrino,4,3,650
+75,LW,Pellegrino,4,3,350
+75,LM,Boga,4,3,350
+75,LM,Luis Rioja,3,4,350
+75,CB,Ajer,3,3,350
+75,GK,Olij,1,2,350
+75,CDM,Pedro Chirivella,3,3,350
+75,CM,Lovric,3,3,350
+75,CDM,Szymanski,3,3,350
+75,RB,Lainer,2,3,350
+75,CM,Kuzyaev,3,3,350
+75,GK,Rodak,1,3,350
+75,CDM,Walace,3,3,1.5K
+75,CB,Friedrich,2,3,350
+75,CF,Ivi Lopez,3,3,350
+75,ST,Dessers,3,4,350
+75,CDM,Berg,3,2,350
+75,CDM,Hamed,2,3,350
+75,CB,Sharahili,2,3,350
+75,CB,Mammana,3,3,600
+75,LW,Orsic,3,4,350
+75,CB,Sorensen,2,3,350
+75,CM,Ndiaye,3,3,2.9K
+75,CM,Ndiaye,3,3,700
+75,CDM,Sydorchuk,3,3,350
+75,RM,Wilson,3,2,350
+75,CM,Brownhill,3,3,350
+75,RM,Gyasi,3,3,400
+75,CB,Denayer,2,3,350
+75,ST,Sandro,3,4,350
+75,CB,Palomino,2,3,350
+75,LW,El Ghazi,4,4,350
+75,LM,Kenedy,4,2,350
+75,CB,Unai Garcia,2,3,350
+75,ST,Petkovic,4,4,350
+75,ST,Alario,3,3,10K
+75,CF,Ingvartsen,3,4,350
+75,CB,Lema,2,2,5.5K
+75,CB,Giannetti,2,4,3.4K
+75,GK,Rey,1,3,350
+75,CAM,Mancuello,4,2,350
+75,ST,Kleindienst,2,5,400
+75,ST,Kleindienst,2,5,350
+75,LW,Di Francesco,4,4,9.6K
+75,LW,Di Francesco,4,4,350
+75,CDM,Bentaleb,4,2,750
+75,ST,Origi,4,4,350
+75,ST,Origi,4,4,350
+75,CDM,Elneny,3,3,650
+75,RW,Palacios,4,3,650
+75,RM,Rony Lopes,4,3,350
+75,CM,Dendoncker,2,4,400
+75,CM,Dendoncker,2,4,400
+75,RWB,Ricardo Esgaio,4,4,350
+75,GK,Heuer Fernandes,1,4,350
+75,CM,Haberer,3,3,350
+75,CB,Rugani,2,3,350
+75,ST,Lapadula,3,4,350
+75,RB,Ruben Pena,4,3,350
+75,CM,Alli,4,3,400
+75,CB,Kempf,2,4,700
+75,CB,Paulo Oliveira,2,2,350
+75,RM,Samu Castillejo,4,2,350
+75,RM,Samu Castillejo,4,2,400
+75,CB,Andre Ramalho,2,5,350
+75,GK,Schuhen,1,3,350
+75,GK,Pacheco,1,2,350
+75,LM,Larsson,4,2,350
+75,CAM,Vina,3,4,350
+75,LB,Kevin Rodrigues,3,3,3.7K
+75,CM,Omar Mascarell,3,5,350
+75,CB,Jullien,2,3,350
+75,CB,Propper,2,4,400
+75,RB,Kubler,2,2,450
+75,RM,Traore,4,1,1.5K
+75,RM,Traore,4,1,10K
+75,GK,Dituro,1,3,3K
+75,GK,Dituro,1,3,350
+75,ST,Martinez,3,4,3.5K
+75,ST,Martinez,3,4,350
+75,GK,Olsen,1,2,350
+75,ST,Hofmann,2,2,450
+75,ST,Bamford,3,3,350
+75,CF,Fountas,3,3,700
+75,LB,Juan Cruz,2,3,350
+75,CDM,Prcic,3,4,550
+75,RM,Leo Baptistao,4,2,350
+75,RM,Wallace,4,4,350
+75,GK,Cragno,1,3,650
+75,GK,Cragno,1,3,350
+75,CB,Luis Hernandez,2,4,350
+75,LW,Bernard,4,4,700
+75,LM,Vako,4,4,8K
+75,LM,Vako,4,4,350
+75,CM,Akpa Akpro,3,4,700
+75,CM,Akpa Akpro,3,4,1.5K
+75,LB,Ramirez,3,3,350
+75,CM,Denis Suarez,3,3,350
+75,RM,Portu,3,4,10K
+75,RM,Portu,3,4,350
+75,CM,Stoger,3,3,400
+75,CM,Stoger,3,3,350
+75,RB,Arias,3,3,3.5K
+75,RWB,Kaderabek,3,2,400
+75,RB,Florenzi,3,4,350
+75,CM,Vilhena,3,4,350
+75,CB,Lascelles,2,3,350
+75,CDM,Demme,3,4,1.6K
+75,CB,Gouweleeuw,2,2,350
+75,CAM,Sansone,4,3,350
+75,RB,Doherty,3,4,350
+75,CM,Falk,4,4,350
+75,CM,Dejaegere,3,4,350
+75,RB,Sidibe,3,4,450
+75,CB,Juan Jesus,2,3,350
+75,CAM,Uth,3,3,400
+75,CAM,Praet,4,4,350
+75,CB,Goldson,2,2,350
+75,CB,Pallois,2,2,350
+75,CDM,Losilla,3,3,450
+75,CAM,Alex Fernandez,3,4,350
+75,CB,Vida,2,3,350
+75,CB,Bell,2,2,400
+75,CB,Schenkeveld,2,3,350
+75,CB,Guilavogui,2,3,650
+75,CDM,Krychowiak,3,3,350
+75,RM,Yarmolenko,4,2,350
+75,CAM,Belhanda,4,3,3K
+75,CB,Rodriguez,3,3,2.1K
+75,CAM,Shaqiri,5,4,350
+75,GK,Foderingham,1,3,700
+75,ST,Tosun,3,4,350
+75,ST,Wood,2,3,400
+75,ST,Pukki,3,3,350
+75,GK,Gunok,1,3,700
+75,LM,Fidel,3,2,350
+75,LM,Fidel,3,2,350
+75,CM,Shelvey,3,3,350
+75,CM,Shelvey,3,3,500
+75,ST,Bou,4,4,2.5K
+75,ST,Bou,4,4,2.3K
+75,CAM,Taison,4,3,350
+75,CM,Grenier,3,4,400
+75,CDM,Kouyate,3,3,2.7K
+75,ST,Balotelli,4,4,6.8K
+75,ST,King,3,3,400
+75,LM,Jose Callejon,3,4,350
+75,CDM,Mauricio,3,4,10K
+75,CAM,Moralez,4,4,350
+75,CB,Victor Diaz,2,3,700
+75,RB,Coleman,3,3,350
+75,CB,Evans,2,4,350
+75,GK,Sirigu,1,2,3.7K
+75,GK,Sirigu,1,2,350
+75,ST,Falcao,3,4,2.8K
+75,CM,Moutinho,3,4,350
+75,GK,Pasveer,1,4,350
+75,GK,Ricardo Batista,1,3,350
+75,ST,Negredo,3,2,1.5K
+75,ST,Negredo,3,2,350
+75,GK,Fernandez,1,3,350

@@ -4,13 +4,14 @@ import csv
 import schedule
 import time
 from datetime import datetime
-import os  # Adicionado para garantir que a pasta 'data' exista
+import os 
 
 base_url = 'https://www.futwiz.com/en/fc24/players?page='
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
 }
-endpoint_url = 'http://localhost:3000/receive-data'  # Endpoint atualizado para localhost
+
+endpoint_url = 'http://localhost:3000/receive-data'  
 
 def get_player_data(page):
     url = f'{base_url}{page}&release[]=raregold&release[]=commongold&minprice=350'
@@ -64,7 +65,7 @@ def save_to_csv(players, filename):
         dict_writer.writerows(players)
 
 def send_data_to_endpoint(data, endpoint):
-    chunk_size = 500  # Define o tamanho do chunk
+    chunk_size = 500  
     for i in range(0, len(data), chunk_size):
         chunk = data[i:i + chunk_size]
         response = requests.post(endpoint, json=chunk)
@@ -72,7 +73,7 @@ def send_data_to_endpoint(data, endpoint):
 
 def job():
     all_players = []
-    for page in range(5):  # páginas de 0 a 96
+    for page in range(97):  
         print(f'Starting scrape for page {page}')
         page_data = get_player_data(page)
         all_players.extend(page_data)
@@ -85,7 +86,7 @@ def job():
     print(f'Data sent to {endpoint_url}')
 
 job()
-schedule.every(3).minutes.do(job)
+schedule.every(10).minutes.do(job)
 
 while True:
     schedule.run_pending()

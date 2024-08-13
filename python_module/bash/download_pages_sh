@@ -1,0 +1,14 @@
+# Olá professor, como te disse, este código, não está sendo utilizado pois tomei timeout na busca dos htmls, todos os downloads estão sendo feitos no script em python.
+# Gostaria de dizer que tudo está em inglês, pois utilizarei o mesmo para a criação de um portfólio.
+
+base_url="https://www.futwiz.com/en/fc24/players?page="
+
+for page in $(seq 1 96); do
+    url="${base_url}${page}&release[]=raregold&release[]=commongold&minprice=350"
+    
+    output_file="page_${page}.html"
+    
+    curl -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" "$url" -o "$output_file"
+    
+    echo "Downloaded $url to $output_file"
+done

@@ -2,49 +2,49 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const cron = require('node-cron');
-const { createObjectCsvWriter } = require('csv-writer');
+const { createObjectCsvWriter } = require('csv-writer'); // Importação correta
 const sendNotification = require('./helpers/notification');
 require('dotenv').config({ path: path.join(__dirname, 'helpers/.env') });
 
 const app = express();
 const port = 3000;
 
-// Middleware nativo do Express para JSON e URL-encoded
+// Native Express middleware for JSON and URL-encoded data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-// Servir arquivos estáticos da pasta 'public'
+// Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, 'public')));
 
 const dataDir = path.join(__dirname, 'data');
 const csvFilePath = path.join(dataDir, 'dados.csv');
 const requestsFilePath = path.join(dataDir, 'requests.txt');
-const queueFilePath = path.join(dataDir, 'queue.json'); // Caminho para o arquivo JSON da fila
+const queueFilePath = path.join(dataDir, 'queue.json'); // Path to the JSON queue file
 
-// Garantir que o diretório 'data' exista
+// Ensure the 'data' directory exists
 if (!fs.existsSync(dataDir)) {
   fs.mkdirSync(dataDir);
 }
 
-// Criar o arquivo CSV se não existir
+// Create the CSV file if it doesn't exist
 if (!fs.existsSync(csvFilePath)) {
   const headers = 'Rating,Position,Name,Skill Moves,Weak Foot,Price\n';
   fs.writeFileSync(csvFilePath, headers, 'utf8');
 }
 
-// Criar o arquivo TXT se não existir
+// Create the TXT file if it doesn't exist
 if (!fs.existsSync(requestsFilePath)) {
   fs.writeFileSync(requestsFilePath, '', 'utf8');
 }
 
-// Inicializar a fila a partir do arquivo JSON
+// Initialize the queue from the JSON file
 let requestQueue = [];
 if (fs.existsSync(queueFilePath)) {
   const queueData = fs.readFileSync(queueFilePath, 'utf8');
   requestQueue = JSON.parse(queueData);
 }
 
-// Funções de formatação e parsing de preços
+// Helper functions for formatting and parsing prices
 function formatPrice(price) {
   return (parseFloat(price) / 1000).toFixed(1) + 'K';
 }
@@ -53,11 +53,9 @@ function parsePrice(price) {
   return parseFloat(price.replace('K', '')) * 1000;
 }
 
-// Função para filtrar jogadores com base nos critérios
+// Function to filter players based on criteria
 function filterPlayers(criteria, csvFilePath) {
   const { overall, position, skillMoves, weakFoot, price } = criteria;
-
-  const results = [];
 
   return new Promise((resolve, reject) => {
     fs.readFile(csvFilePath, 'utf8', (err, data) => {
@@ -78,18 +76,17 @@ function filterPlayers(criteria, csvFilePath) {
         price: header.indexOf('Price')
       };
 
-      rows.forEach(row => {
+      const results = rows.reduce((acc, row) => {
         const values = row.split(',');
 
         if (
-          values[index.rating] === overall &&
+          values[index.rating] >= overall &&
           values[index.position] === position &&
-          values[index.skill_moves] === skillMoves &&
-          values[index.weak_foot] === weakFoot &&
+          values[index.skill_moves] >= skillMoves &&
+          values[index.weak_foot] >= weakFoot &&
           parsePrice(values[index.price]) <= price
         ) {
-
-          results.push({
+          acc.push({
             Rating: values[index.rating],
             Position: values[index.position],
             Name: values[index.name],
@@ -98,43 +95,45 @@ function filterPlayers(criteria, csvFilePath) {
             Price: values[index.price]
           });
         }
-      });
+
+        return acc;
+      }, []);
 
       resolve(results);
     });
   });
 }
 
-// Função para salvar a fila no arquivo JSON
+// Function to save the queue to a JSON file
 function saveQueueToFile(queue) {
   fs.writeFileSync(queueFilePath, JSON.stringify(queue, null, 2), 'utf8');
 }
 
-// Endpoint para receber dados e salvar no CSV
+// Endpoint to receive data and save it in the CSV
 app.post('/receive-data', (req, res) => {
-  const dataChunks = req.body; // Esperando um array de objetos JSON
-  const dataDirectory = path.join(__dirname, 'data'); // Caminho para a pasta 'data'
+  const dataChunks = req.body; // Expecting an array of JSON objects
+  const dataDirectory = path.join(__dirname, 'data'); // Path to the 'data' folder
   
-  // Cria a pasta 'data' se não existir
+  // Create the 'data' folder if it doesn't exist
   if (!fs.existsSync(dataDirectory)) {
     fs.mkdirSync(dataDirectory);
   }
 
-  const csvFilePath = path.join(dataDirectory, 'dados.csv'); // Caminho para o arquivo CSV
-  const jsonFilePath = path.join(dataDirectory, 'dados.json'); // Caminho para o arquivo JSON
+  const csvFilePath = path.join(dataDirectory, 'dados.csv'); // Path to the CSV file
+  const jsonFilePath = path.join(dataDirectory, 'dados.json'); // Path to the JSON file
 
   if (!Array.isArray(dataChunks)) {
-    return res.status(400).send('Formato de dados inválido. Esperado um array de objetos.');
+    return res.status(400).send('Invalid data format. Expected an array of objects.');
   }
 
-  // Leitura e atualização do arquivo JSON
+  // Read and update the JSON file
   let existingData = {};
   if (fs.existsSync(jsonFilePath)) {
     const fileData = fs.readFileSync(jsonFilePath);
     existingData = JSON.parse(fileData);
   }
 
-  // Atualiza ou adiciona novos dados para cada jogador
+  // Update or add new data for each player
   dataChunks.forEach(playerData => {
     const playerName = playerData.name;
     const playerPrice = playerData.price;
@@ -151,15 +150,15 @@ app.post('/receive-data', (req, res) => {
     }
   });
 
-  // Salva os dados atualizados no arquivo JSON
+  // Save the updated data to the JSON file
   fs.writeFile(jsonFilePath, JSON.stringify(existingData, null, 2), err => {
     if (err) {
-      console.error('Erro ao salvar dados no JSON:', err);
-      return res.status(500).send('Erro ao salvar dados.');
+      console.error('Error saving data to JSON:', err);
+      return res.status(500).send('Error saving data.');
     }
   });
 
-  // Salvamento dos dados no CSV
+  // Overwrite the CSV file with the new data
   const csvWriterInstance = createObjectCsvWriter({
     path: csvFilePath,
     header: [
@@ -169,43 +168,76 @@ app.post('/receive-data', (req, res) => {
       { id: 'skill_moves', title: 'Skill Moves' },
       { id: 'weak_foot', title: 'Weak Foot' },
       { id: 'price', title: 'Price' }
-    ],
-    append: false // Para criar um novo arquivo e substituir o antigo
+    ]
   });
 
   csvWriterInstance.writeRecords(dataChunks)
     .then(() => {
-      res.status(200).send('Dados recebidos e salvos com sucesso.');
+      res.status(200).send('Data received and saved successfully.');
     })
     .catch(err => {
-      console.error('Erro ao salvar dados no CSV:', err);
-      res.status(500).send('Erro ao salvar dados.');
+      console.error('Error saving data to CSV:', err);
+      res.status(500).send('Error saving data.');
     });
 });
 
-// Endpoint para cadastrar o evento
-app.post('/notify', (req, res) => {
-  const formData = req.body;
+// Cron job to run every 24 hours (at midnight)
+cron.schedule('0 0 * * *', () => {
+  console.log('Running task every 24 hours');
 
-  // Salva os dados do formulário no arquivo TXT (opcional, caso queira manter histórico)
-  fs.appendFile(requestsFilePath, JSON.stringify(formData) + '\n', (err) => {
-    if (err) {
-      console.error('Erro ao salvar dados no TXT:', err);
-      res.status(500).json({ success: false, message: 'Erro ao salvar dados.' });
-    } else {
-      // Adicionar a requisição à fila
-      requestQueue.push(formData);
-      saveQueueToFile(requestQueue); // Persistir a fila no arquivo JSON
-      res.status(200).json({ success: true, message: 'Dados do formulário recebidos com sucesso e adicionados à fila.' });
-    }
+  // Example of queue processing
+  requestQueue.forEach((formData, index) => {
+    setTimeout(() => {
+      filterPlayers(formData, csvFilePath)
+        .then(filteredResults => {
+          sendNotification(formData, filteredResults);
+        })
+        .catch(err => {
+          console.error(`Error filtering players for test request ${index + 1}:`, err);
+        });
+    }, index * 2000);
   });
 });
 
-// Endpoint para obter a lista de jogadores
+// Endpoint to register the event
+app.post('/notify', (req, res) => {
+  const formData = req.body;
+
+  // Save form data to the TXT file (optional, if you want to keep a history)
+  fs.appendFile(requestsFilePath, JSON.stringify(formData) + '\n', (err) => {
+    if (err) {
+      console.error('Error saving data to TXT:', err);
+      return res.status(500).json({ success: false, message: 'Error saving data.' });
+    }
+
+    // Add the request to the queue
+    requestQueue.push(formData);
+    saveQueueToFile(requestQueue); // Persist the queue in the JSON file
+
+    // Send notification immediately
+    filterPlayers(formData, csvFilePath)
+      .then(filteredResults => {
+        sendNotification(formData, filteredResults)
+          .then(() => {
+            res.status(200).json({ success: true, message: 'Form data received, notification sent, and added to the queue.' });
+          })
+          .catch(err => {
+            console.error('Error sending notification:', err);
+            res.status(500).json({ success: false, message: 'Error sending notification.' });
+          });
+      })
+      .catch(err => {
+        console.error('Error filtering players:', err);
+        res.status(500).json({ success: false, message: 'Error filtering players.' });
+      });
+  });
+});
+
+// Endpoint to get the list of players
 app.get('/players', (req, res) => {
   fs.readFile(path.join(dataDir, 'dados.json'), 'utf8', (err, data) => {
     if (err) {
-      return res.status(500).send('Erro ao ler dados.');
+      return res.status(500).send('Error reading data.');
     }
 
     const playersData = JSON.parse(data);
@@ -215,23 +247,22 @@ app.get('/players', (req, res) => {
   });
 });
 
-// Endpoint para fornecer dados do gráfico de um jogador específico
+// Endpoint to provide chart data for a specific player
 app.get('/chart-data/:playerName', (req, res) => {
   const playerName = req.params.playerName;
 
   fs.readFile(path.join(dataDir, 'dados.json'), 'utf8', (err, data) => {
     if (err) {
-      return res.status(500).send('Erro ao ler dados.');
+      return res.status(500).send('Error reading data.');
     }
 
     const playersData = JSON.parse(data);
 
     if (!playersData[playerName]) {
-      return res.status(404).send('Jogador não encontrado.');
+      return res.status(404).send('Player not found.');
     }
 
     const playerData = playersData[playerName];
-    console.log(playerData)
     const chartData = playerData.prices.map((price, index) => ({
       price: parsePrice(price),
       time: playerData.receivedAt[index]
@@ -241,34 +272,17 @@ app.get('/chart-data/:playerName', (req, res) => {
   });
 });
 
-// Endpoint para exibir o dashboard HTML
+// Endpoint to display the dashboard HTML
 app.get('/dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'dashboard', 'dashboard.html'));
 });
 
-// Tarefa cron para executar a cada 10 minutos (teste)
-cron.schedule('*/60 * * * *', () => {
-  console.log('Executando tarefa de teste a cada 10 minutos');
-
-  // Exemplo de processamento de fila para testes
-  requestQueue.forEach((formData, index) => {
-    filterPlayers(formData, csvFilePath)
-      .then(filteredResults => {
-        sendNotification(formData, filteredResults)
-        console.log(`Jogadores filtrados para a requisição de teste ${index + 1}:`, filteredResults);
-      })
-      .catch(err => {
-        console.error(`Erro ao filtrar jogadores para a requisição de teste ${index + 1}:`, err);
-      });
-  });
-});
-
-// Endpoint para o formulário
+// Endpoint to display the form
 app.get('/form', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'form', 'form.html'));
 });
 
-// Inicia o servidor
+// Start the server
 app.listen(port, () => {
-  console.log(`Servidor rodando na porta ${port}`);
+  console.log(`Server running on http://localhost:${port}`);
 });
